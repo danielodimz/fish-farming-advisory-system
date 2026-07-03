@@ -1,0 +1,6 @@
+Array
+(
+    [username] => iya
+    [success_message] => Registration successful!
+    [error_message] => Invalid username or email or password.
+)

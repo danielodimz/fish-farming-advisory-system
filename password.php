@@ -1,0 +1,92 @@
+<?php session_start(); ?>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+
+<!-- Favicon icon-->
+<link rel="shortcut icon" href="./templates/aqovo/images/gill-wise-logo.png" />
+
+<!-- Libs CSS -->
+
+
+<link href="./templates/dist/assets/libs/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+<link href="./templates/dist/assets/libs/dropzone/dist/dropzone.css"  rel="stylesheet">
+<link href="./templates/dist/assets/libs/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet" />
+<link href="./templates/dist/assets/libs/prismjs/themes/prism-okaidia.css" rel="stylesheet">
+
+
+
+
+
+
+
+
+<!-- Theme CSS -->
+<link rel="stylesheet" href="./templates/dist/assets/css/theme.min.css">
+  <title>Forget Password | Dash Ui - Bootstrap 5 Admin Dashboard Template</title>
+</head>
+
+<body class="bg-dark" style="background-image: url(./templates/aqovo/images/slides/slider-mainbg-008.jpg); background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;">  <div class="container d-flex flex-column">
+    <div class="row align-items-center justify-content-center g-0
+        min-vh-100">
+      <div class="col-12 col-md-8 col-lg-6 col-xxl-4 py-8 py-xl-0">
+        <!-- Card -->
+                <div class="card smooth-shadow-md" style="background-color: rgba(0,0,0, 0.4);">
+          <!-- Card body -->
+          <div class="card-body p-6">
+            <div class="mb-4">
+                            <a href="header-overlay.php"><img id="logo-img" height="100" width="140" class="img-fluid auto_size" src="./templates/aqovo/images/Gill-Wise logo (White)" alt="logo-img"></a>
+              <p class="mb-6 text-light">Don't worry, we'll send you an email to reset your password.
+              </p>
+            </div>
+            <!-- Form -->
+            <form>
+              <!-- Email -->
+              <div class="mb-3">
+                <label for="email" class="form-label text-light">Email</label>
+                <input type="email" id="email" class="form-control" name="email" placeholder="Enter Your Email" required="">
+              </div>
+              <!-- Button -->
+              <div class="mb-3 d-grid">
+                <button type="submit" class="btn btn-primary">
+                    Reset Password
+                  </button>
+              </div>
+              <span class="text-light">Don't have an account? <a href="register.php" class="link-light">sign up</a></span>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <!-- Libs JS -->
+<script src="./templates/dist/assets/libs/jquery/dist/jquery.min.js"></script>
+<script src="./templates/dist/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./templates/dist/assets/libs/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+<script src="./templates/dist/assets/libs/feather-icons/dist/feather.min.js"></script>
+<script src="./templates/dist/assets/libs/prismjs/prism.js"></script>
+<script src="./templates/dist/assets/libs/apexcharts/dist/apexcharts.min.js"></script>
+<script src="./templates/dist/assets/libs/dropzone/dist/min/dropzone.min.js"></script>
+<script src="./templates/dist/assets/libs/prismjs/plugins/toolbar/prism-toolbar.min.js"></script>
+<script src="./templates/dist/assets/libs/prismjs/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"></script>
+
+
+
+
+<!-- Theme JS -->
+<script src="./templates/dist/assets/js/theme.min.js"></script>
+</body>
+
+</html>
+                

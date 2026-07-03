@@ -1,0 +1,7 @@
+Array
+(
+    [username] => Joe
+    [user_id] => 10
+    [role] => student
+    [success_message] => Login successful!
+)
