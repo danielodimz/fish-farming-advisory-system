@@ -11,7 +11,7 @@
 
 
 <!-- Favicon icon-->
-<link rel="shortcut icon" href="./templates/aqovo/images/gill-wise-logo.png" />
+<link rel="shortcut icon" href="./templates/aqovo/images/fish_farm_logo-removebg-preview.png" />
 
 <!-- Libs CSS -->
 
@@ -44,7 +44,7 @@
           <!-- Card body -->
           <div class="card-body p-6">
             <div class="mb-4">
-                            <a href="header-overlay.php"><img id="logo-img" height="100" width="140" class="img-fluid auto_size" src="./templates/aqovo/images/Gill-Wise logo (White)" alt="logo-img"></a>
+                            <a href="header-overlay.php"><img id="logo-img" class="img-fluid auto_size" src="./templates/aqovo/images/fish_farm_logo-removebg-preview.png" alt="Gill-Wise Academy" style="height:110px; width:auto;"></a>
               <p class="mb-6 text-light">Don't worry, we'll send you an email to reset your password.
               </p>
             </div>

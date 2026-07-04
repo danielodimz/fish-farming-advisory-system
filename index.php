@@ -12,7 +12,7 @@ exit();
     <meta name="author" content="" />
     <title>Fish Farming - Online Tutorial</title>
     <!-- Favicon-->
-    <link rel="icon" type="image/x-icon" href="templates/assets/favicon.ico" />
+    <link rel="shortcut icon" href="templates/aqovo/images/fish_farm_logo-removebg-preview.png" />
     <!-- Simple line icons-->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.5.5/css/simple-line-icons.min.css" rel="stylesheet" />
     <!-- Google fonts-->

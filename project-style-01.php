@@ -42,10 +42,10 @@
                                 <div class="ttm-box-view-overlay">
                                     <!-- featured-thumbnail -->
                                     <div class="featured-thumbnail">
-                                        <img class="img-fluid" src="./templates/aqovo/images/portfolio/portfolio-01-770x770.jpg" alt="image">
+                                        <img class="img-fluid" src="./templates/aqovo/images/portfolio/portfolio-01-770x770.jpg" alt="Nigerian catfish farming pond">
                                     </div><!-- featured-thumbnail end-->
                                     <div class="ttm-media-link">
-                                        <a class="ttm_prettyphoto ttm_image" title="Cage System" data-rel="prettyPhoto" href="./templates/aqovo/images/portfolio/portfolio-01-1200x800.jpg">
+                                        <a class="ttm_prettyphoto ttm_image" title="Tarpaulin Pond Setup" data-rel="prettyPhoto" href="./templates/aqovo/images/portfolio/portfolio-01-1200x800.jpg">
                                             <i class="fa fa-search"></i>
                                         </a>
                                         <a href="blog-single.php" class="ttm_link"><i class="fa fa-plus"></i></a>
@@ -53,8 +53,8 @@
                                 </div><!-- ttm-box-view-overlay end-->
                                 <div class="featured-content">
                                     <div class="featured-title">
-                                        <h3><a href="blog-single.php">Cage System</a></h3>
-                                        <div class="category">Catfish, Feeding</div>
+                                        <h3><a href="blog-single.php">Tarpaulin Pond Setup</a></h3>
+                                        <div class="category">Catfish, Setup</div>
                                     </div>
                                 </div>
                             </div><!-- featured-imagebox end-->
@@ -66,10 +66,10 @@
                                 <div class="ttm-box-view-overlay">
                                     <!-- featured-thumbnail -->
                                     <div class="featured-thumbnail">
-                                        <img class="img-fluid" src="./templates/aqovo/images/portfolio/portfolio-02-770x770.jpg" alt="image">
+                                        <img class="img-fluid" src="./templates/aqovo/images/portfolio/portfolio-02-770x770.jpg" alt="Nigerian catfish rearing">
                                     </div><!-- featured-thumbnail end-->
                                     <div class="ttm-media-link">
-                                        <a class="ttm_prettyphoto ttm_image" title="Prawn Lack" data-rel="prettyPhoto" href="./templates/aqovo/images/portfolio/portfolio-02-1200x800.jpg">
+                                        <a class="ttm_prettyphoto ttm_image" title="Catfish Rearing" data-rel="prettyPhoto" href="./templates/aqovo/images/portfolio/portfolio-02-1200x800.jpg">
                                             <i class="fa fa-search"></i>
                                         </a>
                                         <a href="portfolio-single.php" class="ttm_link"><i class="fa fa-plus"></i></a>
@@ -77,8 +77,8 @@
                                 </div><!-- ttm-box-view-overlay end-->
                                 <div class="featured-content">
                                     <div class="featured-title">
-                                        <h3><a href="blog-single.php">Prawn Lack</a></h3>
-                                        <div class="category">Angling, Storage</div>
+                                        <h3><a href="blog-single.php">Catfish Rearing</a></h3>
+                                        <div class="category">Catfish, Feeding</div>
                                     </div>
                                 </div>
                             </div><!-- featured-imagebox end-->
@@ -88,12 +88,13 @@
                             <div class="featured-imagebox featured-imagebox-portfolio style1">
                                 <!-- featured-thumbnail -->
                                 <div class="ttm-portfolio-format-video">
-                                    <iframe src="https://www.youtube.com/embed/vwCIoVICDY4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                                    <!-- African catfish farming tutorial Nigeria 2024 -->
+                                    <iframe src="https://www.youtube.com/embed/_lsGcg6FgOw" title="Catfish Farming For Beginners Nigeria 2024" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
                                 </div><!-- featured-thumbnail end-->
                                 <div class="featured-content">
                                     <div class="featured-title">
-                                        <h3><a href="blog-single.php">Fish Storage</a></h3>
-                                        <div class="category">Feeding, Storage</div>
+                                        <h3><a href="blog-single.php">Catfish Farming Tutorial</a></h3>
+                                        <div class="category">Training, Nigeria</div>
                                     </div>
                                 </div>
                             </div><!-- featured-imagebox end-->
@@ -105,10 +106,10 @@
                                 <div class="ttm-box-view-overlay">
                                     <!-- featured-thumbnail -->
                                     <div class="featured-thumbnail">
-                                        <img class="img-fluid" src="./templates/aqovo/images/portfolio/portfolio-04-770x770.jpg" alt="image">
+                                        <img class="img-fluid" src="./templates/aqovo/images/portfolio/portfolio-04-770x770.jpg" alt="Nigerian fish pond farming">
                                     </div><!-- featured-thumbnail end-->
                                     <div class="ttm-media-link">
-                                        <a class="ttm_prettyphoto ttm_image" title="Catfish Pound" data-rel="prettyPhoto" href="./templates/aqovo/images/portfolio/portfolio-04-1200x800.jpg">
+                                        <a class="ttm_prettyphoto ttm_image" title="Fish Pond Farming" data-rel="prettyPhoto" href="./templates/aqovo/images/portfolio/portfolio-04-1200x800.jpg">
                                             <i class="fa fa-search"></i>
                                         </a>
                                         <a href="blog-single.php" class="ttm_link"><i class="fa fa-plus"></i></a>
@@ -116,8 +117,8 @@
                                 </div><!-- ttm-box-view-overlay end-->
                                 <div class="featured-content">
                                     <div class="featured-title">
-                                        <h3><a href="portfolio-single.php">Catfish Pound</a></h3>
-                                        <div class="category">Angling, Catfish</div>
+                                        <h3><a href="portfolio-single.php">Fish Pond Farming</a></h3>
+                                        <div class="category">Pond, Catfish</div>
                                     </div>
                                 </div>
                             </div><!-- featured-imagebox end-->
@@ -129,10 +130,10 @@
                                 <div class="ttm-box-view-overlay">
                                     <!-- featured-thumbnail -->
                                     <div class="featured-thumbnail">
-                                        <img class="img-fluid" src="./templates/aqovo/images/portfolio/portfolio-05-770x770.jpg" alt="image">
+                                        <img class="img-fluid" src="./templates/aqovo/images/portfolio/portfolio-05-770x770.jpg" alt="Nigerian catfish fingerlings">
                                     </div><!-- featured-thumbnail end-->
                                     <div class="ttm-media-link">
-                                        <a class="ttm_prettyphoto ttm_image" title="Shrimp Lack" data-rel="prettyPhoto" href="./templates/aqovo/images/portfolio/portfolio-05-1200x800.jpg">
+                                        <a class="ttm_prettyphoto ttm_image" title="Fingerling Production" data-rel="prettyPhoto" href="./templates/aqovo/images/portfolio/portfolio-05-1200x800.jpg">
                                             <i class="fa fa-search"></i>
                                         </a>
                                         <a href="blog-single.php" class="ttm_link"><i class="fa fa-plus"></i></a>
@@ -140,8 +141,8 @@
                                 </div><!-- ttm-box-view-overlay end-->
                                 <div class="featured-content">
                                     <div class="featured-title">
-                                        <h3><a href="blog-single.php">Shrimp Lack</a></h3>
-                                        <div class="category">Catfish, Feeding, Storage</div>
+                                        <h3><a href="blog-single.php">Fingerling Production</a></h3>
+                                        <div class="category">Hatchery, Catfish</div>
                                     </div>
                                 </div>
                             </div><!-- featured-imagebox end-->
@@ -153,10 +154,10 @@
                                 <div class="ttm-box-view-overlay">
                                     <!-- featured-thumbnail -->
                                     <div class="featured-thumbnail">
-                                        <img class="img-fluid" src="./templates/aqovo/images/portfolio/portfolio-06-770x770.jpg" alt="image">
+                                        <img class="img-fluid" src="./templates/aqovo/images/portfolio/portfolio-06-770x770.jpg" alt="African catfish harvest">
                                     </div><!-- featured-thumbnail end-->
                                     <div class="ttm-media-link">
-                                        <a class="ttm_prettyphoto ttm_image" title="Blue Crabs" data-rel="prettyPhoto" href="./templates/aqovo/images/portfolio/portfolio-06-1200x800.jpg">
+                                        <a class="ttm_prettyphoto ttm_image" title="Catfish Harvesting" data-rel="prettyPhoto" href="./templates/aqovo/images/portfolio/portfolio-06-1200x800.jpg">
                                             <i class="fa fa-search"></i>
                                         </a>
                                         <a href="blog-single.php" class="ttm_link"><i class="fa fa-plus"></i></a>
@@ -164,8 +165,8 @@
                                 </div><!-- ttm-box-view-overlay end-->
                                 <div class="featured-content">
                                     <div class="featured-title">
-                                        <h3><a href="blog-single.php">Blue Crabs</a></h3>
-                                        <div class="category">Angling, Catfish, Storage</div>
+                                        <h3><a href="blog-single.php">Catfish Harvesting</a></h3>
+                                        <div class="category">Harvest, Processing</div>
                                     </div>
                                 </div>
                             </div><!-- featured-imagebox end-->

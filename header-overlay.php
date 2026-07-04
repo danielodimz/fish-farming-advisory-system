@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Gill-Wise &#8211; Academy &amp; Fishery Services</title>
 
-    <link rel="shortcut icon" href="./templates/aqovo/images/gill-wise-logo.png" />
+    <link rel="shortcut icon" href="./templates/aqovo/images/fish_farm_logo-removebg-preview.png" />
     <link rel="stylesheet" type="text/css" href="./templates/aqovo/css/bootstrap.min.css" />
     <link rel="stylesheet" type="text/css" href="./templates/aqovo/css/animate.css" />
     <link rel="stylesheet" type="text/css" href="./templates/aqovo/css/font-awesome.css" />
@@ -21,6 +21,29 @@
     <link rel="stylesheet" type="text/css" href="./templates/aqovo/css/main.css" />
     <link rel="stylesheet" type="text/css" href="./templates/aqovo/css/megamenu.css" />
     <link rel="stylesheet" type="text/css" href="./templates/aqovo/css/responsive.css" />
+    <style>
+        /* Logo sizing fix */
+        #logo-img {
+            height: 100px !important;
+            width: auto !important;
+            max-width: 300px !important;
+            object-fit: contain;
+        }
+        .ttm-stickable-header.fixed-header #logo-img {
+            height: 75px !important;
+        }
+        /* Ensure portfolio images are consistent height */
+        .featured-imagebox-portfolio .featured-thumbnail img {
+            height: 260px;
+            object-fit: cover;
+            width: 100%;
+        }
+        /* Better slide background sizing */
+        .banner_slider .slide_img {
+            background-size: cover !important;
+            background-position: center center !important;
+        }
+    </style>
 
 </head>
 
@@ -79,7 +102,7 @@
                                     <!-- site-branding -->
                                     <div class="site-branding ">
                                         <a class="home-link" href="header-overlay.php#" title="Gill-Wise" rel="home">
-                                            <img id="logo-img" height="50" width="131" class="img-fluid auto_size" src="./templates/aqovo/images/fish farm logo.png" alt="logo-img">
+                                            <img id="logo-img" class="img-fluid auto_size" src="./templates/aqovo/images/fish_farm_logo-removebg-preview.png" alt="Gill-Wise Academy" style="height:100px; width:auto; max-width:300px;">
                                         </a>
                                     </div>
                                     <!-- site-branding end -->
@@ -165,8 +188,8 @@
         <div class="banner_slider_wrapper">
             <div class="banner_slider banner_slider_3 banner_slider_3_overlay">
                 <div class="slide">
-                    <div class="slide_img" style="background-image: url(./templates/aqovo/images/slides/slider-mainbg-007);"></div>
-                    <!-- <div class="slide_img" style="background-image: url(./templates/aqovo/images/slides/slider-mainbg-005.jpg);"></div> -->
+                    <!-- Nigerian catfish farming - Wiki Loves Africa 2017, TChukwuemeka, CC BY-SA 4.0 -->
+                    <div class="slide_img" style="background-image: url(./templates/aqovo/images/slides/slider-mainbg-african-001.jpg);"></div>
                     <div class="slide__content padding_top90 res-1199-padding_top0">
                         <div class="container">
                             <div class="row">
@@ -196,7 +219,8 @@
                     </div>
                 </div>
                 <div class="slide">
-                    <div class="slide_img" style="background-image: url(./templates/aqovo/images/slides/slider-mainbg-001.jpg);"></div>
+                    <!-- Nigerian fish pond farming - Wiki Loves Africa 2017, TChukwuemeka, CC BY-SA 4.0 -->
+                    <div class="slide_img" style="background-image: url(./templates/aqovo/images/slides/slider-mainbg-african-002.jpg);"></div>
                     <div class="slide__content padding_top90 res-1199-padding_top0">
                         <div class="container">
                             <div class="row">
@@ -383,7 +407,8 @@
                                         </div>
                                     </div>
                                     <!-- col-img-bg-img-seven end-->
-                                    <img class="img-fluid ttm-equal-height-image" src="./templates/aqovo/images/bg-image/col-bgimage-7.jpg" alt="bg-image">
+                                    <!-- Nigerian catfish rearing - Wiki Loves Africa 2017, TChukwuemeka, CC BY-SA 4.0 -->
+                                    <img class="img-fluid ttm-equal-height-image" src="./templates/aqovo/images/bg-image/col-bgimage-african.jpg" alt="African catfish rearing Nigeria">
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="ttm-bg ttm-col-bgcolor-yes ttm-bgcolor-darkgrey ttm-bg ttm-right-span spacing-8 z-index_0 h-auto res-1199-padding_right15">
@@ -528,11 +553,12 @@
                                                 <div class="ttm-box-view-overlay">
                                                     <!-- featured-thumbnail -->
                                                     <div class="featured-thumbnail">
-                                                        <img class="img-fluid" src="./templates/aqovo/images/portfolio/portfolio-01-770x770.jpg" alt="image">
+                                                        <!-- Nigerian catfish farming pond, Wiki Loves Africa 2017, CC BY-SA 4.0 -->
+                                                        <img class="img-fluid" src="./templates/aqovo/images/portfolio/african-portfolio-01.jpg" alt="Nigerian catfish farming">
                                                     </div>
                                                     <!-- featured-thumbnail end-->
                                                     <div class="ttm-media-link">
-                                                        <a class="ttm_prettyphoto ttm_image" title="Cage System" data-rel="prettyPhoto" href="./templates/aqovo/images/portfolio/portfolio-01-1200x800.jpg">
+                                                        <a class="ttm_prettyphoto ttm_image" title="Cage System" data-rel="prettyPhoto" href="./templates/aqovo/images/portfolio/african-portfolio-01.jpg">
                                                             <i class="fa fa-search"></i>
                                                         </a>
                                                         <a href="portfolio-single.php" class="ttm_link"><i class="fa fa-plus"></i></a>
@@ -555,11 +581,12 @@
                                                 <div class="ttm-box-view-overlay">
                                                     <!-- featured-thumbnail -->
                                                     <div class="featured-thumbnail">
-                                                        <img class="img-fluid" src="./templates/aqovo/images/portfolio/portfolio-02-770x770.jpg" alt="image">
+                                                        <!-- Nigerian fish pond farming, Wiki Loves Africa 2017, CC BY-SA 4.0 -->
+                                                        <img class="img-fluid" src="./templates/aqovo/images/portfolio/african-portfolio-02.jpg" alt="Nigerian fish pond farming">
                                                     </div>
                                                     <!-- featured-thumbnail end-->
                                                     <div class="ttm-media-link">
-                                                        <a class="ttm_prettyphoto ttm_image" title="Prawn Lack" data-rel="prettyPhoto" href="./templates/aqovo/images/portfolio/portfolio-02-1200x800.jpg">
+                                                        <a class="ttm_prettyphoto ttm_image" title="Prawn Lack" data-rel="prettyPhoto" href="./templates/aqovo/images/portfolio/african-portfolio-02.jpg">
                                                             <i class="fa fa-search"></i>
                                                         </a>
                                                         <a href="portfolio-single.php" class="ttm_link"><i class="fa fa-plus"></i></a>
@@ -580,8 +607,7 @@
                                             <div class="featured-imagebox featured-imagebox-portfolio style1">
                                                 <!-- featured-thumbnail -->
                                                 <div class="ttm-portfolio-format-video">
-                                                    <!-- <iframe src="https://www.youtube.com/embed/vwCIoVICDY4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe> -->
-                                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lX3Snhggyyo?si=SMQku72F-agYqOof" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                                    <iframe width="560" height="315" src="https://www.youtube.com/embed/_lsGcg6FgOw" title="Catfish Farming For Beginners Nigeria 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                                                 </div>
                                                 <!-- featured-thumbnail end-->
@@ -601,11 +627,12 @@
                                                 <div class="ttm-box-view-overlay">
                                                     <!-- featured-thumbnail -->
                                                     <div class="featured-thumbnail">
-                                                        <img class="img-fluid" src="./templates/aqovo/images/portfolio/portfolio-03-770x770" alt="image">
+                                                        <!-- Nigerian catfish rearing, Wiki Loves Africa 2017, CC BY-SA 4.0 -->
+                                                        <img class="img-fluid" src="./templates/aqovo/images/portfolio/african-portfolio-03.jpg" alt="Nigerian catfish rearing">
                                                     </div>
                                                     <!-- featured-thumbnail end-->
                                                     <div class="ttm-media-link">
-                                                        <a class="ttm_prettyphoto ttm_image" title="Catfish Pound" data-rel="prettyPhoto" href="./templates/aqovo/images/portfolio/portfolio-03-1200x800.jpg">
+                                                        <a class="ttm_prettyphoto ttm_image" title="Catfish Pound" data-rel="prettyPhoto" href="./templates/aqovo/images/portfolio/african-portfolio-03.jpg">
                                                             <i class="fa fa-search"></i>
                                                         </a>
                                                         <a href="portfolio-single.php" class="ttm_link"><i class="fa fa-plus"></i></a>
@@ -661,7 +688,7 @@
                                     <div class="testimonial-bottom">
                                         <div class="testimonial-avatar">
                                             <div class="testimonial-img">
-                                                <img class="img-fluid" src="./templates/aqovo/images/testimonial/01.jpg" alt="testimonial-img">
+                                                <img class="img-fluid" src="./templates/aqovo/images/team-member/My Passport Photograph.png" alt="testimonial-img">
                                             </div>
                                         </div>
                                         <div class="testimonial-caption">
@@ -681,7 +708,7 @@
                                     <div class="testimonial-bottom">
                                         <div class="testimonial-avatar">
                                             <div class="testimonial-img">
-                                                <img class="img-fluid" src="./templates/aqovo/images/testimonial/02.jpg" alt="testimonial-img">
+                                                <img class="img-fluid" src="./templates/aqovo/images/team-member/WhatsApp_Image_2023-10-09_at_6.56.19_AM-removebg-preview.png" alt="testimonial-img">
                                             </div>
                                         </div>
                                         <div class="testimonial-caption">
@@ -701,7 +728,7 @@
                                     <div class="testimonial-bottom">
                                         <div class="testimonial-avatar">
                                             <div class="testimonial-img">
-                                                <img class="img-fluid" src="./templates/aqovo/images/testimonial/03.jpg" alt="testimonial-img">
+                                                <img class="img-fluid" src="./templates/aqovo/images/team-member/WhatsApp_Image_2024-06-07_at_1.00.05_PM-removebg-preview.png" alt="testimonial-img">
                                             </div>
                                         </div>
                                         <div class="testimonial-caption">
@@ -727,8 +754,7 @@
                     <div class="row">
                         <div class="col-lg-11 col-md-10 mx-auto text-center">
                             <div class="ttm-play-icon-btn margin_bottom40">
-                                <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/li-O4unFL0E?si=PMgl28EIXMJP_aeT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
-                                <a href="https://youtu.be/li-O4unFL0E?si=h0NJL9mg-67uUiD0" target="_self" class="ttm_prettyphoto">
+                                <a href="https://www.youtube.com/watch?v=3aLuGj67McM" target="_blank" class="ttm_prettyphoto">
                                     <img class="img-fluid auto_size" width="80" height="70" src="./templates/aqovo/images/play-icon-img.png" alt="play-icon" />
                                 </a>
                             </div>
@@ -875,12 +901,12 @@
                                                     <div class="featured-imagebox featured-imagebox-team style1 m-0">
                                                         <div class="ttm-box-view-overlay">
                                                             <div class="featured-thumbnail">
-                                                                <img class="img-fluid auto_size" height="450" width="360" src="./templates/aqovo/images/team-member/team-img05.jpg" alt="image">
+                                                                <img class="img-fluid auto_size" height="450" width="360" src="./templates/aqovo/images/team-member/WhatsApp_Image_2024-06-07_at_1.00.05_PM-removebg-preview.png" alt="image">
                                                             </div>
                                                         </div>
                                                         <div class="featured-content">
                                                             <div class="featured-title">
-                                                                <h5><a href="team-details.php">Andrew Jackson</a></h5>
+                                                                <h5><a href="team-details.php">Emmanuel Okafor</a></h5>
                                                             </div>
                                                             <p class="team-position">Secretary</p>
                                                         </div>
@@ -1043,7 +1069,7 @@
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
                             <div class="widget widget_text clearfix">
                                 <div class="footer-logo">
-                                    <img id="footer-logo-img" class="img-fluid auto_size" height="46" width="170" src="./templates/aqovo/images/Gill-Wise logo (white).png" alt="image">
+                                    <img id="footer-logo-img" class="img-fluid auto_size" src="./templates/aqovo/images/fish_farm_logo-removebg-preview.png" alt="Gill-Wise Academy" style="height:70px; width:auto;">
                                 </div>
                                 <div class="textwidget widget-text">
                                     <p>At Gill-Wise Academy, our mission is to promote aquaculture practices. For over 12 years, Gill-Wise Academy have demonstrated commitment to responsible aquaculture.</p>
@@ -1066,23 +1092,23 @@
                             <div class="widget widget_img_gellary clearfix">
                                <h3 class="widget-title">Our Gallery</h3>
                                 <ul>
-                                    <li><a href="./templates/aqovo/images/portfolio/portfolio-02-1200x800.jpg" rel="prettyPhoto[coregallery]" data-rel="prettyPhoto">
-                                        <img class="img-fluid" src="./templates/aqovo/images/portfolio/portfolio-02-150x150.jpg" alt=""></a>
+                                    <li><a href="./templates/aqovo/images/portfolio/african-portfolio-01.jpg" rel="prettyPhoto[coregallery]" data-rel="prettyPhoto">
+                                        <img class="img-fluid" src="./templates/aqovo/images/portfolio/african-portfolio-01.jpg" alt="Fish pond Nigeria"></a>
                                     </li>
-                                    <li><a href="./templates/aqovo/images/blog/blog-02-1200x800.jpg" rel="prettyPhoto[coregallery]" data-rel="prettyPhoto">
-                                        <img class="img-fluid" src="./templates/aqovo/images/blog/blog-02-150x150.jpg" alt=""></a>
+                                    <li><a href="./templates/aqovo/images/portfolio/african-portfolio-02.jpg" rel="prettyPhoto[coregallery]" data-rel="prettyPhoto">
+                                        <img class="img-fluid" src="./templates/aqovo/images/portfolio/african-portfolio-02.jpg" alt="Rearing catfish Nigeria"></a>
                                     </li>
-                                    <li><a href="./templates/aqovo/images/blog/blog-01-1200x800.jpg" rel="prettyPhoto[coregallery]" data-rel="prettyPhoto">
-                                        <img class="img-fluid" src="./templates/aqovo/images/blog/blog-01-150x150.jpg" alt=""></a>
+                                    <li><a href="./templates/aqovo/images/portfolio/african-portfolio-03.jpg" rel="prettyPhoto[coregallery]" data-rel="prettyPhoto">
+                                        <img class="img-fluid" src="./templates/aqovo/images/portfolio/african-portfolio-03.jpg" alt="Catfish rearing Nigeria"></a>
                                     </li>
-                                    <li><a href="./templates/aqovo/images/portfolio/portfolio-01-1200x800.jpg" rel="prettyPhoto[coregallery]" data-rel="prettyPhoto">
-                                        <img class="img-fluid" src="./templates/aqovo/images/portfolio/portfolio-01-150x150.jpg" alt=""></a>
+                                    <li><a href="./templates/aqovo/images/slides/slider-mainbg-african-001.jpg" rel="prettyPhoto[coregallery]" data-rel="prettyPhoto">
+                                        <img class="img-fluid" src="./templates/aqovo/images/portfolio/african-portfolio-01.jpg" alt="Catfish farming Nigeria"></a>
                                     </li>
-                                    <li><a href="./templates/aqovo/images/services/services-05-1200x800.jpg" rel="prettyPhoto[coregallery]" data-rel="prettyPhoto">
-                                        <img class="img-fluid" src="./templates/aqovo/images/services/services-05-150x150.jpg" alt=""></a>
+                                    <li><a href="./templates/aqovo/images/slides/slider-mainbg-african-002.jpg" rel="prettyPhoto[coregallery]" data-rel="prettyPhoto">
+                                        <img class="img-fluid" src="./templates/aqovo/images/portfolio/african-portfolio-02.jpg" alt="Fish pond farming Nigeria"></a>
                                     </li>
-                                    <li><a href="./templates/aqovo/images/portfolio/portfolio-03-1200x800.jpg"  rel="prettyPhoto[coregallery]" data-rel="prettyPhoto">
-                                        <img class="img-fluid" src="./templates/aqovo/images/portfolio/portfolio-03-770x770" alt=""></a>
+                                    <li><a href="./templates/aqovo/images/bg-image/col-bgimage-african.jpg" rel="prettyPhoto[coregallery]" data-rel="prettyPhoto">
+                                        <img class="img-fluid" src="./templates/aqovo/images/portfolio/african-portfolio-03.jpg" alt="Catfish rearing Nigeria"></a>
                                     </li>
                                 </ul>
                             </div>

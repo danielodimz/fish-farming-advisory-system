@@ -145,7 +145,7 @@
     background-position: left top;
 }
 .bg-img4{
-    background-image: url(../images/bg-image/row-bgimage-4.jpg);
+    background-image: url(../images/bg-image/row-bgimage-african.jpg);
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
@@ -218,7 +218,7 @@
     background-repeat: no-repeat;
 }
 .col-bg-img-seven.ttm-col-bgimage-yes > .ttm-col-wrapper-bg-layer {
-    background-image: url(../images/bg-image/col-bgimage-7.jpg) !important;
+    background-image: url(../images/bg-image/col-bgimage-african.jpg) !important;
     background-position: center !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;

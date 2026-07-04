@@ -6,7 +6,7 @@
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
                             <div class="widget widget_text clearfix">
                                 <div class="footer-logo">
-                                    <img id="footer-logo-img" class="img-fluid auto_size" height="46" width="170" src="./templates/aqovo/images/Gill-Wise logo (white).png" alt="image">
+                                    <img id="footer-logo-img" class="img-fluid auto_size" src="./templates/aqovo/images/fish_farm_logo-removebg-preview.png" alt="Gill-Wise Academy" style="height:70px; width:auto;">
                                 </div>
                                 <div class="textwidget widget-text">
                                     <p>At Gill-Wise Academy, our mission is to promote aquaculture practices. For over 12 years, Gill-Wise Academy have demonstrated commitment to responsible aquaculture.</p>

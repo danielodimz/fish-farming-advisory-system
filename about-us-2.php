@@ -115,13 +115,15 @@
                                     </div>
                                 </div>
                                 <div class="ttm_single_image-wrapper padding_top30">
-                                    <img class="img-fluid auto_size" src="./templates/aqovo/images/single-img-04.jpg" alt="single-03" height="371" width="568">
+                                    <!-- Nigerian catfish farming, Wiki Loves Africa 2017, CC BY-SA 4.0 -->
+                                    <img class="img-fluid auto_size" src="./templates/aqovo/images/single-img-04.jpg" alt="African catfish farming Nigeria" height="371" width="568">
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-5 col-md-7 col-sm-8 mx-auto">
                             <div class="ttm_single_image-wrapper">
-                                <img class="img-fluid auto_size" src="./templates/aqovo/images/single-img-03.jpg" alt="single-03" height="789" width="500">
+                                <!-- Nigerian catfish rearing, Wiki Loves Africa 2017, CC BY-SA 4.0 -->
+                                <img class="img-fluid auto_size" src="./templates/aqovo/images/single-img-03.jpg" alt="African catfish rearing Nigeria" height="789" width="500">
                             </div>
                         </div>
                     </div><!-- row end -->
@@ -373,7 +375,7 @@
                                 <div class="toggle ttm-toggle_style_classic ttm-toggle-title-bgcolor-white">
                                     <div class="toggle-title box-shadow"><a href="about-us-2.php#" class="active">Is fresh fish higher quality than frozen fish?</a></div>
                                     <div class="toggle-content show">
-                                        <p><img class="img-fluid alignleft padding_bottom5" src="./templates/aqovo/images/portfolio/portfolio-01-150x150.jpg" alt="portfolio-01" width="150" height="150">Multi-user software to cover workflow, from management. Multi-user software to cover management.</p>
+                                        <p><img class="img-fluid alignleft padding_bottom5" src="./templates/aqovo/images/portfolio/african-faq-thumb-01.jpg" alt="Nigerian catfish farming" width="150" height="150">Multi-user software to cover workflow, from management. Multi-user software to cover management.</p>
                                         <p>Multi-user software to cover workflow, from management. Multi-user software to cover</p>
                                     </div>
                                 </div><!-- toggle end -->
@@ -381,7 +383,7 @@
                                 <div class="toggle ttm-toggle_style_classic ttm-toggle-title-bgcolor-white">
                                     <div class="toggle-title box-shadow"><a href="about-us-2.php#">What is sustainable seafood?</a></div>
                                     <div class="toggle-content">
-                                        <p><img class="img-fluid alignleft padding_bottom5" src="./templates/aqovo/images/portfolio/portfolio-02-150x150.jpg" alt="portfolio-02" width="150" height="150">Multi-user software to cover workflow, from management. Multi-user software to cover management.</p>
+                                        <p><img class="img-fluid alignleft padding_bottom5" src="./templates/aqovo/images/portfolio/african-faq-thumb-02.jpg" alt="Nigerian fish pond farming" width="150" height="150">Multi-user software to cover workflow, from management. Multi-user software to cover management.</p>
                                         <p>Multi-user software to cover workflow, from management. Multi-user software to cover</p>
                                     </div>
                                 </div><!-- toggle end -->
@@ -389,7 +391,7 @@
                                 <div class="toggle ttm-toggle_style_classic ttm-toggle-title-bgcolor-white">
                                     <div class="toggle-title box-shadow"><a href="about-us-2.php#">Should I be concerned about seafood fraud?</a></div>
                                     <div class="toggle-content">
-                                        <p><img class="img-fluid alignleft padding_bottom5" src="./templates/aqovo/images/portfolio/portfolio-01-150x150.jpg" alt="portfolio-03" width="150" height="150">Multi-user software to cover workflow, from management. Multi-user software to cover management.</p>
+                                        <p><img class="img-fluid alignleft padding_bottom5" src="./templates/aqovo/images/portfolio/african-faq-thumb-01.jpg" alt="Nigerian catfish rearing" width="150" height="150">Multi-user software to cover workflow, from management. Multi-user software to cover management.</p>
                                         <p>Multi-user software to cover workflow, from management. Multi-user software to cover</p>
                                     </div>
                                 </div><!-- toggle end -->                                

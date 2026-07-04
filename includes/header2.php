@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon icon-->
-    <link rel="shortcut icon" href="./templates/aqovo/images/gill-wise-logo.png" />
+    <link rel="shortcut icon" href="./templates/aqovo/images/fish_farm_logo-removebg-preview.png" />
     <!-- Libs CSS -->
     <link href="./templates/dist/assets/libs/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link href="./templates/dist/assets/libs/dropzone/dist/dropzone.css" rel="stylesheet">
@@ -23,7 +23,7 @@
             <div class="nav-scroller">
                 <!-- Brand logo -->
                 <a class="navbar-brand" href="header-overlay.php">
-                    <img id="footer-logo-img" class="img-fluid auto_size" height="" width="40" src="./templates/aqovo/images/Gill-Wise logo (white).png" alt="image">
+                    <img id="footer-logo-img" class="img-fluid auto_size" style="height:55px; width:auto;" src="./templates/aqovo/images/fish_farm_logo-removebg-preview.png" alt="Gill-Wise Academy">
                 </a>
                 <!-- Navbar nav -->
                 <ul class="navbar-nav flex-column" id="sideNavbar">

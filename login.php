@@ -8,7 +8,7 @@ file_put_contents('session_debug.txt', print_r($_SESSION, true));
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="./templates/aqovo/images/gill-wise-logo.png" />
+    <link rel="shortcut icon" href="./templates/aqovo/images/fish_farm_logo-removebg-preview.png" />
     <link href="./templates/dist/assets/libs/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
     <link href="./templates/dist/assets/libs/dropzone/dist/dropzone.css" rel="stylesheet">
     <link href="./templates/dist/assets/libs/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet" />
@@ -25,7 +25,7 @@ file_put_contents('session_debug.txt', print_r($_SESSION, true));
                 <div class="card smooth-shadow-md" style="background-color: rgba(0,0,0, 0.4);">
                     <div class="card-body p-6">
                         <div class="mb-4">
-                            <a href="header-overlay.php"><img id="logo-img" height="100" width="140" class="img-fluid auto_size" src="./templates/aqovo/images/Gill-Wise logo (White)" alt="logo-img"></a>
+                            <a href="header-overlay.php"><img id="logo-img" class="img-fluid auto_size" src="./templates/aqovo/images/fish_farm_logo-removebg-preview.png" alt="Gill-Wise Academy" style="height:110px; width:auto;"></a>
                             <p class="mb-6 text-light">Please enter your user information.</p>
                         </div>
                         <form method="post" action="process_login.php">

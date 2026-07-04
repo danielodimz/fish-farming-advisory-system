@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Gillwise &#8211; Academy &amp; Fishery Services </title>
 
-<link rel="shortcut icon" href="./templates/aqovo/images/gill-wise-logo.png" />
+<link rel="shortcut icon" href="./templates/aqovo/images/fish_farm_logo-removebg-preview.png" />
 <link rel="stylesheet" type="text/css" href="./templates/aqovo/css/bootstrap.min.css"/>
 <link rel="stylesheet" type="text/css" href="./templates/aqovo/css/animate.css"/>
 <link rel="stylesheet" type="text/css" href="./templates/aqovo/css/font-awesome.css"/>
@@ -62,7 +62,7 @@
                                     <!-- site-branding -->
                                     <div class="site-branding ">
                                         <a class="home-link" href="header-overlay.php" title="Gill-Wise-Academy" rel="home">
-                                            <img id="logo-img" height="52" width="137" class="img-fluid auto_size" src="./templates/aqovo/images/Gill-Wise logo (normal).svg" alt="logo-img">
+                                            <img id="logo-img" class="img-fluid auto_size" src="./templates/aqovo/images/fish_farm_logo-removebg-preview.png" alt="Gill-Wise Academy" style="height:100px; width:auto;">
                                         </a>
                                     </div><!-- site-branding end -->
                                     <div class="border-box-block">
