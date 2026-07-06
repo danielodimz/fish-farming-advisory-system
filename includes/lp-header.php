@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="keywords" content="HTML5 Template">
-<meta name="description" content="Gillwise &#8211; Academy &amp; Fishery Services">
+<meta name="description" content="Odimz Farm &#8211; Academy &amp; Fishery Services">
 <meta name="author" content="https://www.themetechmount.com/" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Gillwise &#8211; Academy &amp; Fishery Services </title>
+<title>Odimz Farm &#8211; Academy &amp; Fishery Services </title>
 
 <link rel="shortcut icon" href="./templates/aqovo/images/fish_farm_logo-removebg-preview.png" />
 <link rel="stylesheet" type="text/css" href="./templates/aqovo/css/bootstrap.min.css"/>
@@ -42,7 +42,7 @@
                                 <div class="top_bar_icon">
                                     <i class="fa fa-info-circle"></i>
                                 </div>
-                                <span>Using its extensive fish farming experience and knowledge, Gill-Wise-Academy is now a market leader helping. </span>  
+                                <span>Using its extensive fish farming experience and knowledge, Odimz Farm is now a market leader helping. </span>  
                                 <a href="about-us-2.php">Learn More <i class="fa fa-long-arrow-right"></i></a>
                             </div>
                         </div>
@@ -61,8 +61,8 @@
                                 <div class="site-navigation d-flex align-items-center justify-content-between">
                                     <!-- site-branding -->
                                     <div class="site-branding ">
-                                        <a class="home-link" href="header-overlay.php" title="Gill-Wise-Academy" rel="home">
-                                            <img id="logo-img" class="img-fluid auto_size" src="./templates/aqovo/images/fish_farm_logo-removebg-preview.png" alt="Gill-Wise Academy" style="height:100px; width:auto;">
+                                        <a class="home-link" href="header-overlay.php" title="Odimz Farm" rel="home">
+                                            <img id="logo-img" class="img-fluid auto_size" src="./templates/aqovo/images/fish_farm_logo-removebg-preview.png" alt="Odimz Farm" style="height:100px; width:auto;">
                                         </a>
                                     </div><!-- site-branding end -->
                                     <div class="border-box-block">

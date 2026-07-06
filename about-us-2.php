@@ -1,4 +1,4 @@
-<?php include 'includes/lp-header.php' ?>
+﻿<?php include 'includes/lp-header.php' ?>
 
         <!-- page-title -->
         <div class="ttm-page-title-row ttm-bg ttm-bgimage-yes ttm-bgcolor-darkgrey clearfix">
@@ -41,7 +41,7 @@
                                         <h2 class="title">Having Real Experts For Fish Farming</h2>
                                     </div>
                                     <div class="title-desc">
-                                        <p>Gill-Wise interest in aquaculture was born when it was hired by the Worldwide to look after the fisheries and aquaculture portfolio in their commercial division & farming service department.</p>
+                                        <p>Odimz Farm interest in aquaculture was born when it was hired by the Worldwide to look after the fisheries and aquaculture portfolio in their commercial division & farming service department.</p>
                                     </div>
                                 </div><!-- section title end -->
                                 <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-rounded ttm-btn-style-border ttm-btn-color-dark  margin_top15" href="contact-us.php">contact us</a>
@@ -262,7 +262,7 @@
                                 </div>
                                 <div class="heading-seperator"><span></span></div>
                                 <div class="title-desc">
-                                    <p>At Gill-Wise, We completely following the strict &amp; hygienic process for the Aqua Farming &amp; service worldwide</p>
+                                    <p>At Odimz Farm, We completely following the strict &amp; hygienic process for the Aqua Farming &amp; service worldwide</p>
                                 </div>
                             </div><!-- section title end -->
                         </div>

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 include 'auth_check.php';
 require '../includes/db.php';
 require '../vendor/fpdf/fpdf/src/Fpdf/Fpdf.php';
@@ -48,7 +48,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $pdf->Ln(10);
             $pdf->SetFont('Arial', '', 12);
             $pdf->Cell(0, 10, "This certifies that $username has successfully completed", 0, 1, 'C');
-            $pdf->Cell(0, 10, 'the Fish Farming Course at Gill-Wise Academy.', 0, 1, 'C');
+            $pdf->Cell(0, 10, 'the Fish Farming Course at Odimz Farm.', 0, 1, 'C');
             $pdf->Ln(10);
             $pdf->Cell(0, 10, 'Date: ' . date('M d, Y'), 0, 1, 'C');
             $pdf->Output('F', "../certificates/certificate_$user_id.pdf");

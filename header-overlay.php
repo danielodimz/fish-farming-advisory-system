@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="keywords" content="HTML5 Template">
-    <meta name="description" content="Gillwise &#8211; Academy &amp; Fishery Services, Gill-Wise Aqua Farm & Fishery Services">
+    <meta name="description" content="Odimz Farm &#8211; Academy &amp; Fishery Services, Odimz Farm Aquaculture & Fishery Services">
     <meta name="author" content="https://www.themetechmount.com/" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Gill-Wise &#8211; Academy &amp; Fishery Services</title>
+    <title>Odimz Farm &#8211; Academy &amp; Fishery Services</title>
 
     <link rel="shortcut icon" href="./templates/aqovo/images/fish_farm_logo-removebg-preview.png" />
     <link rel="stylesheet" type="text/css" href="./templates/aqovo/css/bootstrap.min.css" />
@@ -101,8 +101,8 @@
                                 <div class="site-navigation d-flex align-items-center justify-content-between">
                                     <!-- site-branding -->
                                     <div class="site-branding ">
-                                        <a class="home-link" href="header-overlay.php#" title="Gill-Wise" rel="home">
-                                            <img id="logo-img" class="img-fluid auto_size" src="./templates/aqovo/images/fish_farm_logo-removebg-preview.png" alt="Gill-Wise Academy" style="height:100px; width:auto; max-width:300px;">
+                                        <a class="home-link" href="header-overlay.php#" title="Odimz Farm" rel="home">
+                                            <img id="logo-img" class="img-fluid auto_size" src="./templates/aqovo/images/fish_farm_logo-removebg-preview.png" alt="Odimz Farm" style="height:100px; width:auto; max-width:300px;">
                                         </a>
                                     </div>
                                     <!-- site-branding end -->
@@ -197,7 +197,7 @@
                                     <div class="slide__content--headings ttm-textcolor-white">
                                         <div class="left-content">
                                             <h3 data-animation="fadeInDown">Welcome to</h3>
-                                            <h2 data-animation="fadeInDown">Gill-Wise Academy</h2>
+                                            <h2 data-animation="fadeInDown">Odimz Farm</h2>
                                             <p data-animation="fadeInDown" class="padding_right40">An online fish farming tutorial platform!”</p>
                                             <div class="d-inline-block margin_top30" data-animation="fadeInUp" data-delay="1.4">
                                                 <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-rounded ttm-btn-style-fill ttm-btn-color-skincolor" href="register.php">get started</a>
@@ -261,7 +261,7 @@
                             <!-- section title -->
                             <div class="section-title style2">
                                 <div class="title-header">
-                                    <h3>GILL-WISE SERVICES</h3>
+                                    <h3>ODIMZ FARM SERVICES</h3>
                                     <h2 class="title">The Best Aqua Services</h2>
                                 </div>
                                 <div class="title-desc">
@@ -521,7 +521,7 @@
                             <div class="section-title title-style-center_text">
                                 <div class="title-header">
                                     <h3>OUR BEST PROJECT</h3>
-                                    <h2 class="title">Gill-Wise, An Exquisite Portfolio</h2>
+                                    <h2 class="title">Odimz Farm, An Exquisite Portfolio</h2>
                                 </div>
                                 <div class="title-desc">
                                     <p>Build a global portfolio across the value chain to demonstrates aquaculture to generate competitive returns</p>
@@ -684,16 +684,16 @@
                             <!-- testimonials -->
                             <div class="testimonials ttm-testimonial-box-view-style2">
                                 <div class="testimonial-content">
-                                    <blockquote class="testimonial-text">Gill-Wise has done a great job taking on a challenging pond/pump system and making the very best of it. With innovative ideas to use nature rather than chemicals, they have made complaint calls.</blockquote>
+                                    <blockquote class="testimonial-text">Odimz Farm transformed my backyard into a thriving catfish business. The step-by-step lessons on tarpaulin pond setup were exactly what I needed. Within 4 months I harvested my first batch and made a profit!</blockquote>
                                     <div class="testimonial-bottom">
                                         <div class="testimonial-avatar">
                                             <div class="testimonial-img">
-                                                <img class="img-fluid" src="./templates/aqovo/images/team-member/My Passport Photograph.png" alt="testimonial-img">
+                                                <img class="img-fluid" src="https://ui-avatars.com/api/?name=Emeka+Okonkwo&background=2e7d32&color=fff&size=100&rounded=true&bold=true" alt="Emeka Okonkwo">
                                             </div>
                                         </div>
                                         <div class="testimonial-caption">
-                                            <h3>Bako Garba</h3>
-                                            <label>Main Director</label>
+                                            <h3>Emeka Okonkwo</h3>
+                                            <label>Catfish Farmer, Enugu</label>
                                         </div>
                                     </div>
                                 </div>
@@ -704,16 +704,16 @@
                             <!-- testimonials -->
                             <div class="testimonials ttm-testimonial-box-view-style2">
                                 <div class="testimonial-content">
-                                    <blockquote class="testimonial-text">Mosquito larva is under control, algae is under control, and most of all, the budget is under control. Thank you and we look forward to a continued relationship with Gill-Wise! Thank you, Gill-Wise!</blockquote>
+                                    <blockquote class="testimonial-text">I started with no fish farming knowledge. The tutorials are clear, practical, and tailored for Nigerian conditions. I now run 6 tarpaulin ponds in Kogi State. Odimz Farm truly empowers farmers!</blockquote>
                                     <div class="testimonial-bottom">
                                         <div class="testimonial-avatar">
                                             <div class="testimonial-img">
-                                                <img class="img-fluid" src="./templates/aqovo/images/team-member/WhatsApp_Image_2023-10-09_at_6.56.19_AM-removebg-preview.png" alt="testimonial-img">
+                                                <img class="img-fluid" src="https://ui-avatars.com/api/?name=Aisha+Musa&background=1565c0&color=fff&size=100&rounded=true&bold=true" alt="Aisha Musa">
                                             </div>
                                         </div>
                                         <div class="testimonial-caption">
-                                            <h3>Adams Onyebo</h3>
-                                            <label>CEO Of Founder</label>
+                                            <h3>Aisha Musa</h3>
+                                            <label>Aquaculture Entrepreneur, Kogi</label>
                                         </div>
                                     </div>
                                 </div>
@@ -724,20 +724,62 @@
                             <!-- testimonials -->
                             <div class="testimonials ttm-testimonial-box-view-style2">
                                 <div class="testimonial-content">
-                                    <blockquote class="testimonial-text">Gill-Wise has been taking care of all aspects of our pond care for quite a few years, from the stocking and health of fish, to the maintenance and upkeep of the pond water and plants. Recommending!</blockquote>
+                                    <blockquote class="testimonial-text">The water quality management module saved my entire stock. I almost lost 500 fish before finding Odimz Farm. Their advisory and coaching is top-notch. Highly recommended for anyone serious about fish farming.</blockquote>
                                     <div class="testimonial-bottom">
                                         <div class="testimonial-avatar">
                                             <div class="testimonial-img">
-                                                <img class="img-fluid" src="./templates/aqovo/images/team-member/WhatsApp_Image_2024-06-07_at_1.00.05_PM-removebg-preview.png" alt="testimonial-img">
+                                                <img class="img-fluid" src="https://ui-avatars.com/api/?name=Chukwudi+Eze&background=e65100&color=fff&size=100&rounded=true&bold=true" alt="Chukwudi Eze">
                                             </div>
                                         </div>
                                         <div class="testimonial-caption">
-                                            <h3>Victor Segun</h3>
-                                            <label>Main Experts</label>
+                                            <h3>Chukwudi Eze</h3>
+                                            <label>Fish Farmer, Anambra</label>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <!-- testimonials end -->
+                        </div>
+                        <div class="col-lg-12">
+                            <!-- testimonials -->
+                            <div class="testimonials ttm-testimonial-box-view-style2">
+                                <div class="testimonial-content">
+                                    <blockquote class="testimonial-text">As a retired civil servant, I needed a side income. Odimz Farm guided me from pond construction to harvesting and processing smoked catfish. I now supply 3 markets in Nasarawa every month!</blockquote>
+                                    <div class="testimonial-bottom">
+                                        <div class="testimonial-avatar">
+                                            <div class="testimonial-img">
+                                                <img class="img-fluid" src="https://ui-avatars.com/api/?name=Ngozi+Adeyemi&background=6a1b9a&color=fff&size=100&rounded=true&bold=true" alt="Ngozi Adeyemi">
+                                            </div>
+                                        </div>
+                                        <div class="testimonial-caption">
+                                            <h3>Ngozi Adeyemi</h3>
+                                            <label>Small-Scale Fish Farmer, Nasarawa</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- testimonials end -->
+                        </div>
+                        <div class="col-lg-12">
+                            <!-- testimonials -->
+                            <div class="testimonials ttm-testimonial-box-view-style2">
+                                <div class="testimonial-content">
+                                    <blockquote class="testimonial-text">The fingerling sourcing support alone is worth everything. Odimz Farm connected me with reliable hatcheries in Lafia. My first batch had 95% survival rate — far better than when I was doing it alone.</blockquote>
+                                    <div class="testimonial-bottom">
+                                        <div class="testimonial-avatar">
+                                            <div class="testimonial-img">
+                                                <img class="img-fluid" src="https://ui-avatars.com/api/?name=Yusuf+Abdullahi&background=00695c&color=fff&size=100&rounded=true&bold=true" alt="Yusuf Abdullahi">
+                                            </div>
+                                        </div>
+                                        <div class="testimonial-caption">
+                                            <h3>Yusuf Abdullahi</h3>
+                                            <label>Commercial Farmer, Plateau State</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- testimonials end -->
+                        </div>
                             <!-- testimonials end -->
                         </div>
                     </div>
@@ -867,14 +909,14 @@
                                                     <div class="featured-imagebox featured-imagebox-team style1 m-0">
                                                         <div class="ttm-box-view-overlay">
                                                             <div class="featured-thumbnail">
-                                                                <img class="img-fluid auto_size" height="450" width="360" src="./templates/aqovo/images/team-member/My Passport Photograph.png" alt="image">
+                                                                <img class="img-fluid auto_size" height="450" width="360" src="./templates/aqovo/images/IMG-20260704-WA0019.jpg" alt="image">
                                                             </div>
                                                         </div>
                                                         <div class="featured-content">
                                                             <div class="featured-title">
-                                                                <h5><a href="team-details.php">James Anyebe</a></h5>
+                                                                <h5><a href="team-details.php">Daniel Emeka</a></h5>
                                                             </div>
-                                                            <p class="team-position">Material Designer</p>
+                                                            <p class="team-position">Website Developer</p>
                                                         </div>
                                                     </div>
                                                     <!-- featured-imagebox-team end-->
@@ -882,35 +924,14 @@
                                                 <div class="col-lg-3 col-md-6 col-sm-6 ttm-box-col-wrapper">
                                                     <!-- featured-imagebox-team -->
                                                     <div class="featured-imagebox featured-imagebox-team style1 m-0">
-                                                        <div class="ttm-box-view-overlay">
-                                                            <div class="featured-thumbnail">
-                                                                <img class="img-fluid auto_size" height="450" width="360" src="./templates/aqovo/images/team-member/WhatsApp_Image_2023-10-09_at_6.56.19_AM-removebg-preview.png" alt="image">
-                                                            </div>
-                                                        </div>
-                                                        <div class="featured-content">
-                                                            <div class="featured-title">
-                                                                <h5><a href="team-details.php">Grant Bestman</a></h5>
-                                                            </div>
-                                                            <p class="team-position">CEO/CFO</p>
-                                                        </div>
+                                                       
+                                                      
                                                     </div>
                                                     <!-- featured-imagebox-team end-->
                                                 </div>
                                                 <div class="col-lg-3 col-md-6 col-sm-6 ttm-box-col-wrapper">
                                                     <!-- featured-imagebox-team -->
-                                                    <div class="featured-imagebox featured-imagebox-team style1 m-0">
-                                                        <div class="ttm-box-view-overlay">
-                                                            <div class="featured-thumbnail">
-                                                                <img class="img-fluid auto_size" height="450" width="360" src="./templates/aqovo/images/team-member/WhatsApp_Image_2024-06-07_at_1.00.05_PM-removebg-preview.png" alt="image">
-                                                            </div>
-                                                        </div>
-                                                        <div class="featured-content">
-                                                            <div class="featured-title">
-                                                                <h5><a href="team-details.php">Emmanuel Okafor</a></h5>
-                                                            </div>
-                                                            <p class="team-position">Secretary</p>
-                                                        </div>
-                                                    </div>
+                                                    
                                                     <!-- featured-imagebox-team end-->
                                                 </div>
                                             </div>
@@ -1069,10 +1090,10 @@
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
                             <div class="widget widget_text clearfix">
                                 <div class="footer-logo">
-                                    <img id="footer-logo-img" class="img-fluid auto_size" src="./templates/aqovo/images/fish_farm_logo-removebg-preview.png" alt="Gill-Wise Academy" style="height:70px; width:auto;">
+                                    <img id="footer-logo-img" class="img-fluid auto_size" src="./templates/aqovo/images/fish_farm_logo-removebg-preview.png" alt="Odimz Farm" style="height:70px; width:auto;">
                                 </div>
                                 <div class="textwidget widget-text">
-                                    <p>At Gill-Wise Academy, our mission is to promote aquaculture practices. For over 12 years, Gill-Wise Academy have demonstrated commitment to responsible aquaculture.</p>
+                                    <p>At Odimz Farm, our mission is to promote aquaculture practices. For over 12 years, Odimz Farm have demonstrated commitment to responsible aquaculture.</p>
                                     <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-skincolor" href="contact-us.php">Make an appointment <i class="fa fa-chevron-right"></i></a>
                                 </div>
                             </div>
@@ -1121,7 +1142,7 @@
                                     <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-xs margin_right15 margin_bottom15 ">
                                         <i class="flaticon flaticon-call"></i>
                                     </div>
-                                    <h4>+234 813 890 4068</h4>
+                                    <h4>+234 706 537 9188</h4>
                                 </div>
                                 <p>Maraba-Akunza, Lafia, Nasarawa State, Nigeria.</p>
                                 <div class="d-inline-table align-items-center justify-content-between">
@@ -1144,7 +1165,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="d-md-flex justify-content-between">
-                                <span class="cpy-text">Copyright © 2025 <a href="header-overlay.php#" class="ttm-textcolor-skincolor font-weight-500">Gill-Wise Academy </a> All rights reserved.</span>
+                                <span class="cpy-text">Copyright © 2025 <a href="header-overlay.php#" class="ttm-textcolor-skincolor font-weight-500">Odimz Farm </a> All rights reserved.</span>
                                 <ul class="footer-nav-menu">
                                     <li><a href="about-us-2.php">About Us</a></li>
                                     <li><a href="services-2.php">Services</a></li>

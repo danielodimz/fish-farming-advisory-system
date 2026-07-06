@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 session_start();
 // Debug: Log session contents
 file_put_contents('session_debug.txt', print_r($_SESSION, true));
@@ -14,9 +14,9 @@ file_put_contents('session_debug.txt', print_r($_SESSION, true));
     <link href="./templates/dist/assets/libs/@mdi/font/css/materialdesignicons.min.css" rel="stylesheet" />
     <link href="./templates/dist/assets/libs/prismjs/themes/prism-okaidia.css" rel="stylesheet">
     <link rel="stylesheet" href="./templates/dist/assets/css/theme.min.css">
-    <title>Sign In | Gill-Wise-Academy</title>
+    <title>Sign In | Odimz Farm</title>
 </head>
-<body class="bg-dark" style="background-image: url(./templates/aqovo/images/slides/slider-mainbg-008.jpg); background-position: center; 
+<body class="bg-dark" style="background-image: url(./templates/aqovo/images/slides/slider-mainbg-african-002.jpg); background-position: center; 
   background-repeat: no-repeat;
   background-size: cover;">
     <div class="container d-flex flex-column">
@@ -25,7 +25,7 @@ file_put_contents('session_debug.txt', print_r($_SESSION, true));
                 <div class="card smooth-shadow-md" style="background-color: rgba(0,0,0, 0.4);">
                     <div class="card-body p-6">
                         <div class="mb-4">
-                            <a href="header-overlay.php"><img id="logo-img" class="img-fluid auto_size" src="./templates/aqovo/images/fish_farm_logo-removebg-preview.png" alt="Gill-Wise Academy" style="height:110px; width:auto;"></a>
+                            <a href="header-overlay.php"><img id="logo-img" class="img-fluid auto_size" src="./templates/aqovo/images/fish_farm_logo-removebg-preview.png" alt="Odimz Farm" style="height:110px; width:auto;"></a>
                             <p class="mb-6 text-light">Please enter your user information.</p>
                         </div>
                         <form method="post" action="process_login.php">

@@ -1,9 +1,9 @@
-<footer class="py-4 bg-light mt-auto">
+﻿<footer class="py-4 bg-light mt-auto">
     <div class="container-fluid px-4">
         <div class="d-flex align-items-center justify-content-between small">
             <p class="cpy-text m-6"><a href="header-overlay.php#" class="ttm-textcolor-skincolor font-weight-500"></a></p>
             <div>
-                Copyright © 2025 <a href="header-overlay.php#" class="ttm-textcolor-skincolor font-weight-500">Gill-Wise Academy</a> |
+                Copyright © 2025 <a href="header-overlay.php#" class="ttm-textcolor-skincolor font-weight-500">Odimz Farm</a> |
                 <a href="about-us-2.php">About Us</a> |
                 <a href="services-2.php">Services</a> |
                 <a href="contact-us.php">Privacy</a>

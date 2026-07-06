@@ -142,7 +142,7 @@ try {
                                 <div class="featured-title">
                                     <h3 class="margin_bottom0 fs-20">Let’s Call or Email</h3>
                                 </div>
-                                <div class="featured-desc">jamesanyebe2000@gmail.com<br>+234 813 890 4068</div>
+                                <div class="featured-desc">danielodimz@gmail.com<br>+234 706 537 9188</div>
                             </div>
                         </div><!-- featured-icon-box end-->
                         <!--featured-icon-box-->
@@ -170,7 +170,7 @@ try {
                                 <div class="featured-title">
                                     <h3 class="margin_bottom0 fs-20">Chat on Online</h3>
                                 </div>
-                                <div class="featured-desc">jamesanyebe2000@gmail.com</div>
+                                <div class="featured-desc">danielodimz@gmail.com</div>
                             </div>
                         </div><!-- featured-icon-box end-->
                     </div>

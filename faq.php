@@ -1,4 +1,4 @@
-<?php include 'includes/lp-header.php' ?>
+﻿<?php include 'includes/lp-header.php' ?>
 
 
         <!-- page-title -->
@@ -56,7 +56,7 @@
                                 <div class="toggle ttm-toggle_style_classic ttm-control-right-true ttm-toggle-title-bgcolor-grey style2">
                                     <div class="toggle-title"><a href="faq.html#">Why i should choose your company?</a></div>
                                     <div class="toggle-content">
-                                        <p>Gill-Wise Academy offers step-by-step, easy-to-understand fish farming tutorials tailored to Nigerian conditions. Our platform is user-friendly, accessible anytime, and packed with practical lessons, quizzes, and tips for beginners. Whether you're starting out or looking to improve, we help you farm smarter not harder</p>
+                                        <p>Odimz Farm offers step-by-step, easy-to-understand fish farming tutorials tailored to Nigerian conditions. Our platform is user-friendly, accessible anytime, and packed with practical lessons, quizzes, and tips for beginners. Whether you're starting out or looking to improve, we help you farm smarter not harder</p>
                                     </div>
                                 </div><!-- toggle end -->
                                 <!-- toggle -->
@@ -84,7 +84,7 @@
                                 <div class="toggle ttm-toggle_style_classic ttm-control-right-true ttm-toggle-title-bgcolor-grey style2">
                                     <div class="toggle-title"><a href="faq.html#">Is there a cost to using the platform?</a></div>
                                     <div class="toggle-content">
-                                        <p>Currently, Gill-Wise Academy offers free access to the tutorial content as part of our mission to promote agricultural education. However, some features like advanced modules or certificates may require a small fee in the future (we’ll always notify you beforehand).</p>
+                                        <p>Currently, Odimz Farm offers free access to the tutorial content as part of our mission to promote agricultural education. However, some features like advanced modules or certificates may require a small fee in the future (we’ll always notify you beforehand).</p>
                                     </div>
                                 </div><!-- toggle end -->
                            </div>

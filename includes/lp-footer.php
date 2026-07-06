@@ -1,4 +1,4 @@
-        <!--footer start-->
+﻿        <!--footer start-->
         <footer class="footer widget-footer ttm-bgcolor-darkgrey ttm-textcolor-white clearfix">
             <div class="second-footer">
                 <div class="container">
@@ -6,10 +6,10 @@
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 widget-area">
                             <div class="widget widget_text clearfix">
                                 <div class="footer-logo">
-                                    <img id="footer-logo-img" class="img-fluid auto_size" src="./templates/aqovo/images/fish_farm_logo-removebg-preview.png" alt="Gill-Wise Academy" style="height:70px; width:auto;">
+                                    <img id="footer-logo-img" class="img-fluid auto_size" src="./templates/aqovo/images/fish_farm_logo-removebg-preview.png" alt="Odimz Farm" style="height:70px; width:auto;">
                                 </div>
                                 <div class="textwidget widget-text">
-                                    <p>At Gill-Wise Academy, our mission is to promote aquaculture practices. For over 12 years, Gill-Wise Academy have demonstrated commitment to responsible aquaculture.</p>
+                                    <p>At Odimz Farm, our mission is to promote aquaculture practices. For over 12 years, Odimz Farm have demonstrated commitment to responsible aquaculture.</p>
                                     <a class="ttm-btn btn-inline ttm-btn-size-md ttm-icon-btn-right ttm-btn-color-skincolor" href="contact-us.php">Make an appointment <i class="fa fa-chevron-right"></i></a>
                                 </div>
                             </div>
@@ -58,7 +58,7 @@
                                     <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-xs margin_right15 margin_bottom15 ">
                                         <i class="flaticon flaticon-call"></i>
                                     </div>
-                                    <h4>+234 813 890 4068</h4>
+                                    <h4>+234 706 537 9188</h4>
                                 </div>
                                 <p>Maraba-Akunza, Lafia, Nasarawa State, Nigeria.</p>
                                 <div class="d-inline-table align-items-center justify-content-between">
@@ -81,7 +81,7 @@
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="d-md-flex justify-content-between">
-                                <span class="cpy-text">Copyright © 2025 <a href="header-overlay.php#" class="ttm-textcolor-skincolor font-weight-500">Gill-Wise Academy </a> All rights reserved.</span>
+                                <span class="cpy-text">Copyright © 2025 <a href="header-overlay.php#" class="ttm-textcolor-skincolor font-weight-500">Odimz Farm </a> All rights reserved.</span>
                                 <ul class="footer-nav-menu">
                                     <li><a href="about-us-2.php">About Us</a></li>
                                     <li><a href="services-2.php">Services</a></li>

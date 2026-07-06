@@ -199,11 +199,11 @@
                             <div class="d-flex align-items-center justify-content-center margin_top10">
                                 <div class="d-sm-flex ttm-vertical_sep text-center">
                                     <div class="col">
-                                        <h5 class="mb-0 p-20 padding_top15 padding_bottom15 res-575-p-0">+234 813 890 4068</h5>
+                                        <h5 class="mb-0 p-20 padding_top15 padding_bottom15 res-575-p-0">+234 706 537 9188</h5>
                                     </div>
                                     <div class="col">
                                         <h5 class="ttm-textcolor-skincolor mb-0 p-20 padding_top15 padding_bottom15">
-                                            <a href="mailto:jamesanyebe2000@gmail.com">jamesanyebe2000@gmail.com</a>
+                                            <a href="mailto:danielodimz@gmail.com">danielodimz@gmail.com</a>
                                         </h5>
                                     </div>
                                 </div>

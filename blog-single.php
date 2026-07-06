@@ -1,4 +1,4 @@
-<?php include 'includes/lp-header.php' ?>
+﻿<?php include 'includes/lp-header.php' ?>
 
 
         <!-- page-title -->
@@ -61,7 +61,7 @@
                                         <div class="margin_top15 clearfix">
                                             <img class="img-fluid alignleft" width="372" height="423" src="./templates/aqovo/images/single-img-08.png" alt="single-08">
                                             <h3>Compatible Data</h3>
-                                            <p>Gill-Wise Academy is a Nigerian based aquaculture consulting company that provides aqua project management services worldwide. We are in the significant <strong>opportunities for water</strong> and wastewater treatment contracts within our Aqua division</p>
+                                            <p>Odimz Farm is a Nigerian based aquaculture consulting company that provides aqua project management services worldwide. We are in the significant <strong>opportunities for water</strong> and wastewater treatment contracts within our Aqua division</p>
                                             <ul class="ttm-list ttm-list-style-icon ttm-list-icon-color-skincolor ttm-textcolor-darkgrey padding_top15">
                                                 <li><i class="fa fa-check-square"></i><div class="font-weight-normal ttm-list-li-content">The Asia Leads the Way</div></li>
                                                 <li><i class="fa fa-check-square"></i><div class="font-weight-normal ttm-list-li-content">New Options From Startups</div></li>
@@ -172,8 +172,8 @@
                                     <h3>Do You Need Any Help?</h3>
                                     <div class="ttm-horizontal_sep width-100 margin_top20 margin_bottom20"></div>
                                     <ul>
-                                        <li>+234 813 890 4068</li>
-                                        <li>jamesanyebe2000@gmail.com</li>
+                                        <li>+234 706 537 9188</li>
+                                        <li>danielodimz@gmail.com</li>
                                     </ul>
                                     <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-rounded ttm-btn-style-fill ttm-btn-color-skincolor" href="contact-us.html">appoinments!</a>
                                 </div>

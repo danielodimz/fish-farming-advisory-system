@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- Required meta tags -->
@@ -13,7 +13,7 @@
     <link href="./templates/dist/assets/libs/prismjs/themes/prism-okaidia.css" rel="stylesheet">
     <!-- Theme CSS -->
     <link rel="stylesheet" href="./templates/dist/assets/css/theme.min.css">
-    <title>Gillwise &#8211; Academy &amp; Fishery Services</title>
+    <title>Odimz Farm &#8211; Academy &amp; Fishery Services</title>
 </head>
 <body class="bg-light">
     <div id="db-wrapper">
@@ -23,7 +23,7 @@
             <div class="nav-scroller">
                 <!-- Brand logo -->
                 <a class="navbar-brand" href="header-overlay.php">
-                    <img id="footer-logo-img" class="img-fluid auto_size" style="height:55px; width:auto;" src="../templates/aqovo/images/fish_farm_logo-removebg-preview.png" alt="Gill-Wise Academy">
+                    <img id="footer-logo-img" class="img-fluid auto_size" style="height:55px; width:auto;" src="../templates/aqovo/images/fish_farm_logo-removebg-preview.png" alt="Odimz Farm">
                 </a>
                 <!-- Navbar nav -->
                 <ul class="navbar-nav flex-column" id="sideNavbar">

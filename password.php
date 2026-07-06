@@ -1,4 +1,4 @@
-<?php session_start(); ?>
+﻿<?php session_start(); ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -30,10 +30,10 @@
 
 <!-- Theme CSS -->
 <link rel="stylesheet" href="./templates/dist/assets/css/theme.min.css">
-  <title>Forget Password | Dash Ui - Bootstrap 5 Admin Dashboard Template</title>
+  <title>Reset Password | Odimz Farm</title>
 </head>
 
-<body class="bg-dark" style="background-image: url(./templates/aqovo/images/slides/slider-mainbg-008.jpg); background-position: center; 
+<body class="bg-dark" style="background-image: url(./templates/aqovo/images/slides/slider-mainbg-african-001.jpg); background-position: center; 
   background-repeat: no-repeat;
   background-size: cover;">  <div class="container d-flex flex-column">
     <div class="row align-items-center justify-content-center g-0
@@ -44,7 +44,7 @@
           <!-- Card body -->
           <div class="card-body p-6">
             <div class="mb-4">
-                            <a href="header-overlay.php"><img id="logo-img" class="img-fluid auto_size" src="./templates/aqovo/images/fish_farm_logo-removebg-preview.png" alt="Gill-Wise Academy" style="height:110px; width:auto;"></a>
+                            <a href="header-overlay.php"><img id="logo-img" class="img-fluid auto_size" src="./templates/aqovo/images/fish_farm_logo-removebg-preview.png" alt="Odimz Farm" style="height:110px; width:auto;"></a>
               <p class="mb-6 text-light">Don't worry, we'll send you an email to reset your password.
               </p>
             </div>
