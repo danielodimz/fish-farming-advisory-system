@@ -914,7 +914,7 @@
                                                         </div>
                                                         <div class="featured-content">
                                                             <div class="featured-title">
-                                                                <h5><a href="team-details.php">Daniel Emeka</a></h5>
+                                                                <h5><a href="#">Chukwuemeka Daniel Odimegwu</a></h5>
                                                             </div>
                                                             <p class="team-position">Website Developer</p>
                                                         </div>
