@@ -1,7 +1,7 @@
 Array
 (
-    [username] => atumajoe24
+    [username] => mrsmd 
+    [user_id] => 12
+    [role] => admin
     [success_message] => Login successful!
-    [user_id] => 7
-    [role] => student
 )

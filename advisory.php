@@ -111,6 +111,39 @@
                                     <h3>Description For Our Service</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&nbsp;<u><a class="ttm-textcolor-skincolor" href="prawn-feeds.html#">Quis ipsum suspendisse ultrices</a></u> gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. m suspendisse ultrices gravida. Risus commodo <strong>vivm suspendisse</strong> ultrices gravida. ipsum suspendisse ultrices gravida.</p>
                                     <div class="row">
+                                        <!-- start -->
+                                        <div class="col-lg-6 col-md-6 col-sm-6">
+                                            <section class="featured-icon-box icon-align-before-content icon-ver_align-top icon-flip-hover" aria-labelledby="fish-health-title">
+                                                <div class="featured-icon">
+                                                    <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
+                                                        <i class="flaticon-pond-1" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="featured-content">
+                                                    <div class="text-center" style="background-color: #0e153a; padding: 8px; margin-bottom: 8px; border-radius: 10px 10px 0 0">
+                                                        <h5 id="fish-health-title" style="color: white; margin: 0;">Fish &amp; Health Advisory</h5>
+                                                    </div>
+                                                    <div class="featured-desc" style="border: 1px solid #00d1ff; border-top: none; padding: 12px; border-radius: 0 0 8px 8px;">
+                                                        <h4 style="color: red; margin-top: 0;">Problem: Fish are not eating</h4>
+                                                        <p><strong>Common symptoms:</strong></p>
+                                                        <ul>
+                                                            <li>Reduced or no food uptake</li>
+                                                            <li>Lethargy or hiding</li>
+                                                            <li>Visible signs of disease (spots, frayed fins)</li>
+                                                        </ul>
+                                                        <p><strong>Possible causes:</strong></p>
+                                                        <ul>
+                                                            <li>Poor water quality (ammonia, nitrite, low oxygen)</li>
+                                                            <li>Incorrect water temperature or sudden changes</li>
+                                                            <li>Stress from overcrowding or handling</li>
+                                                        </ul>
+                                                        <p><strong>Immediate actions:</strong> Test water parameters, check temperature, reduce feeding, isolate sick fish if needed and consult a veterinarian or extension service.</p>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                        <!-- end -->
+                                        <!-- start -->
                                         <div class="col-lg-6 col-md-6 col-sm-6">
                                             <div class="featured-icon-box icon-align-before-content icon-ver_align-top icon-flip-hover">
                                                 <div class="featured-icon">
@@ -119,67 +152,114 @@
                                                     </div>
                                                 </div>
                                                 <div class="featured-content">
-                                                    <div class="featured-title">
-                                                        <h3>Water &amp; Soil Quality</h3>
+                                                    <div class="text-center" style="background-color: #0e153a;  padding: 8px; margin-bottom: 8px; border-radius: 10px 10px 0 0">
+                                                        <h5 style="color: white;">Water &amp; Quality Advisory</h5>
                                                     </div>
-                                                    <div class="featured-desc">
-                                                        <p>Accumulation of surface organic matter at the soil surface intentionally taken care of bringing</p>
+                                                    <div class="featured-desc" style="border: 1px solid #00d1ff; border-top: none; padding: 10px; border-radius: 0 0 8px 8px;">
+                                                        <p class="mb-2"><strong>Key water quality parameters and recommended ranges:</strong></p>
+                                                        <div class="table-responsive">
+                                                            <table class="table table-sm mb-0">
+                                                                <caption class="sr-only">Recommended water quality ranges for healthy fish</caption>
+                                                                <thead class="table-dark">
+                                                                    <tr>
+                                                                        <th scope="col">Parameter</th>
+                                                                        <th scope="col">Recommended Range</th>
+                                                                        <th scope="col">Notes</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>Temperature</td>
+                                                                        <td>24–28 °C</td>
+                                                                        <td>Depends on species — avoid rapid swings</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>pH</td>
+                                                                        <td>6.5–8.0</td>
+                                                                        <td>Maintain stable pH with buffers if needed</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Dissolved Oxygen</td>
+                                                                        <td>>5 mg/L</td>
+                                                                        <td>Increase aeration when levels fall</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Ammonia (NH3/NH4+)</td>
+                                                                        <td>&lt;0.02 mg/L (NH3)</td>
+                                                                        <td>Highly toxic; perform partial water changes</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+                                       <!-- end  -->
+                                        <!-- start -->
                                         <div class="col-lg-6 col-md-6 col-sm-6">
-                                            <div class="featured-icon-box icon-align-before-content icon-ver_align-top icon-flip-hover">
+                                            <section class="featured-icon-box icon-align-before-content icon-ver_align-top icon-flip-hover" aria-labelledby="fish-health-title">
                                                 <div class="featured-icon">
                                                     <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
-                                                        <i class="flaticon-lake-1"></i>
+                                                        <i class="flaticon-pond-1" aria-hidden="true"></i>
                                                     </div>
                                                 </div>
                                                 <div class="featured-content">
-                                                    <div class="featured-title">
-                                                        <h3>The Future Prospects</h3>
+                                                    <div class="text-center" style="background-color: #0e153a; padding: 8px; margin-bottom: 8px; border-radius: 10px 10px 0 0">
+                                                        <h5 id="fish-health-title" style="color: white; margin: 0;">Fish &amp; Health Advisory</h5>
                                                     </div>
-                                                    <div class="featured-desc">
-                                                        <p>Planning, monitoring and the funding of several centrally sponsored fishery schemes</p>
+                                                    <div class="featured-desc" style="border: 1px solid #00d1ff; border-top: none; padding: 12px; border-radius: 0 0 8px 8px;">
+                                                        <h4 style="color: red; margin-top: 0;">Problem: Fish are not eating</h4>
+                                                        <p><strong>Common symptoms:</strong></p>
+                                                        <ul>
+                                                            <li>Reduced or no food uptake</li>
+                                                            <li>Lethargy or hiding</li>
+                                                            <li>Visible signs of disease (spots, frayed fins)</li>
+                                                        </ul>
+                                                        <p><strong>Possible causes:</strong></p>
+                                                        <ul>
+                                                            <li>Poor water quality (ammonia, nitrite, low oxygen)</li>
+                                                            <li>Incorrect water temperature or sudden changes</li>
+                                                            <li>Stress from overcrowding or handling</li>
+                                                        </ul>
+                                                        <p><strong>Immediate actions:</strong> Test water parameters, check temperature, reduce feeding, isolate sick fish if needed and consult a veterinarian or extension service.</p>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </section>
                                         </div>
+                                        <!-- end -->
+                                         <!-- start -->
                                         <div class="col-lg-6 col-md-6 col-sm-6">
-                                            <div class="featured-icon-box icon-align-before-content icon-ver_align-top icon-flip-hover">
+                                            <section class="featured-icon-box icon-align-before-content icon-ver_align-top icon-flip-hover" aria-labelledby="fish-health-title">
                                                 <div class="featured-icon">
                                                     <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
-                                                        <i class="flaticon-lake"></i>
+                                                        <i class="flaticon-pond-1" aria-hidden="true"></i>
                                                     </div>
                                                 </div>
                                                 <div class="featured-content">
-                                                    <div class="featured-title">
-                                                        <h3>The Export Potential</h3>
+                                                    <div class="text-center" style="background-color: #0e153a; padding: 8px; margin-bottom: 8px; border-radius: 10px 10px 0 0">
+                                                        <h5 id="fish-health-title" style="color: white; margin: 0;">Fish &amp; Health Advisory</h5>
                                                     </div>
-                                                    <div class="featured-desc">
-                                                        <p>Fish and fish products have presently emerged as the largest exports group of the Asia</p>
+                                                    <div class="featured-desc" style="border: 1px solid #00d1ff; border-top: none; padding: 12px; border-radius: 0 0 8px 8px;">
+                                                        <h4 style="color: red; margin-top: 0;">Problem: Fish are not eating</h4>
+                                                        <p><strong>Common symptoms:</strong></p>
+                                                        <ul>
+                                                            <li>Reduced or no food uptake</li>
+                                                            <li>Lethargy or hiding</li>
+                                                            <li>Visible signs of disease (spots, frayed fins)</li>
+                                                        </ul>
+                                                        <p><strong>Possible causes:</strong></p>
+                                                        <ul>
+                                                            <li>Poor water quality (ammonia, nitrite, low oxygen)</li>
+                                                            <li>Incorrect water temperature or sudden changes</li>
+                                                            <li>Stress from overcrowding or handling</li>
+                                                        </ul>
+                                                        <p><strong>Immediate actions:</strong> Test water parameters, check temperature, reduce feeding, isolate sick fish if needed and consult a veterinarian or extension service.</p>
                                                     </div>
                                                 </div>
-                                            </div>
+                                            </section>
                                         </div>
-                                        <div class="col-lg-6 col-md-6 col-sm-6">
-                                            <div class="featured-icon-box icon-align-before-content icon-ver_align-top icon-flip-hover">
-                                                <div class="featured-icon">
-                                                    <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
-                                                        <i class="flaticon-ice-fishing"></i>
-                                                    </div>
-                                                </div>
-                                                <div class="featured-content">
-                                                    <div class="featured-title">
-                                                        <h3>Latest Machinery</h3>
-                                                    </div>
-                                                    <div class="featured-desc">
-                                                        <p>It is considered one of the most profitable in import and export value in the fish farming industry</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                        <!-- end -->
                                     <div class="ttm-horizontal_sep width-100 margin_top30 margin_bottom35"></div>
                                     <div class="row">
                                         <div class="col-md-6">
@@ -226,5 +306,6 @@
 
 
         </div><!--site-main end-->
+
 
 <?php include 'includes/lp-footer.php' ?>

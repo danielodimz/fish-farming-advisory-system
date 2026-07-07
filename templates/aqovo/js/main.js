@@ -443,8 +443,8 @@ jQuery(function($) {
     });
     $(document).ready(function() {
         var e = '<div class="prt_floting_customsett">' +
-            '<a href="https://api.whatsapp.com/send?phone=2348138904068" class="tmtheme_fbar_icons"><i class="fa fa-whatsapp"></i><span>Whatsapp</span></a>' +
-            '<a href="http://localhost/web/fishfarm_tutorial/header-overlay.php" class="tmtheme_fbar_icons"><i class="themifyicon themifyicon fa fa-home"></i><span>Homepage</span></a>' +
+            '<a href="https://api.whatsapp.com/send?phone=2347065379188" class="tmtheme_fbar_icons"><i class="fa fa-whatsapp"></i><span>Whatsapp</span></a>' +
+            '<a href="http://localhost/web/fish farm project/fish-farming-advisory-system/header-overlay.php" class="tmtheme_fbar_icons"><i class="themifyicon themifyicon fa fa-home"></i><span>Homepage</span></a>' +
             '<div class="clearfix"></div>' +
             '</div>';
 
