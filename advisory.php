@@ -7,13 +7,13 @@
                     <div class="col-lg-12">
                         <div class="ttm-page-title-row-inner">
                             <div class="page-title-heading">
-                                <h2 class="title">Prawn Feeds</h2>
+                                <h2 class="title">FISH FARMING ADVISORY</h2>
                             </div>
                             <div class="breadcrumb-wrapper">
                                 <span>
                                     <a title="Homepage" href="index.html">Home</a>
                                 </span>
-                                <span>Prawn Feeds</span>
+                                <span>Advisory</span>
                             </div>
                         </div>
                     </div>
@@ -104,12 +104,12 @@
                                 <div class="ttm_fatured_image-wrapper margin_bottom30">
                                     <img class="img-fluid" src="images/services/services-01-1200x800.jpg" alt="services-1">
                                     <div class="p-15 padding_left30 padding_right30 ttm-bgcolor-skincolor">
-                                        <h5 class="fs-18 mb-0">We approach your audit with a deep loream ipsum under standing of your popular business.</h5>
+                                        <h5 class="fs-18 mb-0">Fish Farming Advisory Center</h5>
                                     </div>
                                 </div>
                                 <div class="ttm-service-description">
-                                    <h3>Description For Our Service</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&nbsp;<u><a class="ttm-textcolor-skincolor" href="prawn-feeds.html#">Quis ipsum suspendisse ultrices</a></u> gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. m suspendisse ultrices gravida. Risus commodo <strong>vivm suspendisse</strong> ultrices gravida. ipsum suspendisse ultrices gravida.</p>
+                                    <h3>Welcome to Odimz Farm Advisory Center</h3>
+                                    <p>At Odimz Farm, we are committed to helping fish farmers achieve healthier fish, higher productivity, and increased profits..&nbsp;<u><a class="ttm-textcolor-skincolor" href="prawn-feeds.html#">Our Advisory Center</a></u> provides expert guidance on fish health, water quality management, feeding practices, pond maintenance, disease prevention, and sustainable fish farming techniques.</p>
                                     <div class="row">
                                         <!-- start -->
                                         <div class="col-lg-6 col-md-6 col-sm-6">
@@ -206,23 +206,30 @@
                                                 </div>
                                                 <div class="featured-content">
                                                     <div class="text-center" style="background-color: #0e153a; padding: 8px; margin-bottom: 8px; border-radius: 10px 10px 0 0">
-                                                        <h5 id="fish-health-title" style="color: white; margin: 0;">Fish &amp; Health Advisory</h5>
+                                                        <h6 id="fish-health-title" style="color: white; margin: 0;">Pond Management Tips</h6>
                                                     </div>
                                                     <div class="featured-desc" style="border: 1px solid #00d1ff; border-top: none; padding: 12px; border-radius: 0 0 8px 8px;">
-                                                        <h4 style="color: red; margin-top: 0;">Problem: Fish are not eating</h4>
-                                                        <p><strong>Common symptoms:</strong></p>
+                                                        <h4 style="color: red; margin-top: 0;"></h4>
+                                                        <p><strong>Water change</strong></p>
                                                         <ul>
-                                                            <li>Reduced or no food uptake</li>
-                                                            <li>Lethargy or hiding</li>
-                                                            <li>Visible signs of disease (spots, frayed fins)</li>
+                                                            <li>change 10-20% water weekly</li>
+                                                           
                                                         </ul>
-                                                        <p><strong>Possible causes:</strong></p>
+                                                        <p><strong>Pond cleaning</strong></p>
                                                         <ul>
-                                                            <li>Poor water quality (ammonia, nitrite, low oxygen)</li>
-                                                            <li>Incorrect water temperature or sudden changes</li>
-                                                            <li>Stress from overcrowding or handling</li>
+                                                            <li>Remove watste and Sludge Regularly</li>
+                                                            
                                                         </ul>
-                                                        <p><strong>Immediate actions:</strong> Test water parameters, check temperature, reduce feeding, isolate sick fish if needed and consult a veterinarian or extension service.</p>
+                                                        <p><strong>Stocking Density</strong></p>
+                                                        <ul>
+                                                            <li>Follow Recommended Stocking rate </li>
+                                                            
+                                                        </ul>
+                                                         <p><strong>Aeration</strong></p>
+                                                        <ul>
+                                                            <li>Use aerator especially at night or low oxygen  </li>
+                                                            
+                                                        </ul>
                                                     </div>
                                                 </div>
                                             </section>
@@ -238,23 +245,29 @@
                                                 </div>
                                                 <div class="featured-content">
                                                     <div class="text-center" style="background-color: #0e153a; padding: 8px; margin-bottom: 8px; border-radius: 10px 10px 0 0">
-                                                        <h5 id="fish-health-title" style="color: white; margin: 0;">Fish &amp; Health Advisory</h5>
+                                                        <h5 id="fish-health-title" style="color: white; margin: 0;">Weather Advisory</h5>
                                                     </div>
                                                     <div class="featured-desc" style="border: 1px solid #00d1ff; border-top: none; padding: 12px; border-radius: 0 0 8px 8px;">
-                                                        <h4 style="color: red; margin-top: 0;">Problem: Fish are not eating</h4>
-                                                        <p><strong>Common symptoms:</strong></p>
+                                                        <h4 style="color: red; margin-top: 0;"></h4>
+                                                        <p><strong>Hot weather</strong></p>
                                                         <ul>
-                                                            <li>Reduced or no food uptake</li>
-                                                            <li>Lethargy or hiding</li>
-                                                            <li>Visible signs of disease (spots, frayed fins)</li>
+                                                            <li>High temperature reduces oxygen increases aeration and avoid over feeding </li>
+                                                            
                                                         </ul>
-                                                        <p><strong>Possible causes:</strong></p>
+                                                        <p><strong>Rainy Weather</strong></p>
                                                         <ul>
-                                                            <li>Poor water quality (ammonia, nitrite, low oxygen)</li>
-                                                            <li>Incorrect water temperature or sudden changes</li>
-                                                            <li>Stress from overcrowding or handling</li>
+                                                            <li>Heavy rain can reduce PH and Oxygen </li>
+                                                            <li>Monitor water quality and be prepared</li>
+                                                        
                                                         </ul>
-                                                        <p><strong>Immediate actions:</strong> Test water parameters, check temperature, reduce feeding, isolate sick fish if needed and consult a veterinarian or extension service.</p>
+                                                        <p><strong>Dry Season</strong></p>
+                                                        <ul>
+                                                            
+                                                            <li>Water level drops and oxygen decreases </li>
+                                                        
+                                                        
+                                                            
+                                                        </ul>
                                                     </div>
                                                 </div>
                                             </section>
