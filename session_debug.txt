@@ -1,3 +1,9 @@
 Array
 (
+    [username] => oo2
+    [user_id] => 14
+    [role] => student
+    [csrf_token] => d87cf6b12350fb0266a1ac28cdd6c2162cb7d9fc1691b774cc1af7db93f1ad9e
+    [success_message] => Quiz submitted! Score: 0/1 (0%)
+    [error_message] => Module not found.
 )
