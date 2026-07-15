@@ -1,8 +1,8 @@
 <?php
 include 'includes/auth.php';
 require 'includes/db.php';
-include 'includes/header2.php';
 
+// All redirects must happen before any HTML output
 if (!isset($_GET['id'])) {
     $_SESSION['error_message'] = 'No module selected.';
     header("Location: dashboard2.php");
@@ -12,8 +12,8 @@ if (!isset($_GET['id'])) {
 $module_id = (int)$_GET['id'];
 $user_id = $_SESSION['user_id'];
 
-// Fetch module
-$stmt = $db->prepare("SELECT * FROM modules WHERE id = ?");
+// Fetch module — select columns explicitly to match actual DB schema
+$stmt = $db->prepare("SELECT id, title, content, image_url, materials FROM modules WHERE id = ?");
 $stmt->execute([$module_id]);
 $module = $stmt->fetch(PDO::FETCH_ASSOC);
 
@@ -31,6 +31,9 @@ $stmt->execute([$user_id, $module_id]);
 $stmt = $db->prepare("SELECT id FROM quizzes WHERE module_id = ?");
 $stmt->execute([$module_id]);
 $quiz = $stmt->fetch(PDO::FETCH_ASSOC);
+
+// All data ready — now safe to output HTML
+include 'includes/header2.php';
 ?>
 
 <div class="container-fluid p-6">
@@ -58,12 +61,12 @@ $quiz = $stmt->fetch(PDO::FETCH_ASSOC);
                     <?php endif; ?>
                     <div class="mb-4">
                         <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                            <?php echo nl2br(htmlspecialchars($module['content'])); ?>
+                            <?php echo nl2br(htmlspecialchars($module['content'] ?? 'No content available.')); ?>
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                     </div>
-                    <?php if (!empty($module['supporting_materials'])): ?>
-                        <p><strong>Resources:</strong> <?php echo htmlspecialchars($module['supporting_materials']); ?></p>
+                    <?php if (!empty($module['materials'])): ?>
+                        <p><strong>Resources:</strong> <?php echo htmlspecialchars($module['materials']); ?></p>
                     <?php endif; ?>
                     <?php if ($quiz): ?>
                         <p><a href="take_quiz.php?module_id=<?php echo $module_id; ?>" class="btn btn-info">Take Quiz</a></p>

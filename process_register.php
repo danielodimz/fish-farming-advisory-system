@@ -3,15 +3,38 @@ session_start();
 require 'includes/db.php';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $username = $_POST['username'];
-    $email = $_POST['email'];
-    $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
+    $username = trim($_POST['username']);
+    $email    = trim($_POST['email']);
+    $password = $_POST['password'];
+
+    // Check username uniqueness
+    $stmt = $db->prepare("SELECT id FROM users WHERE username = ?");
+    $stmt->execute([$username]);
+    if ($stmt->fetch()) {
+        $_SESSION['error_message'] = 'That username is already taken.';
+        header("Location: register.php");
+        exit();
+    }
+
+    // Check email uniqueness
+    $stmt = $db->prepare("SELECT id FROM users WHERE email = ?");
+    $stmt->execute([$email]);
+    if ($stmt->fetch()) {
+        $_SESSION['error_message'] = 'An account with that email already exists.';
+        header("Location: register.php");
+        exit();
+    }
 
     try {
-        $stmt = $db->prepare("INSERT INTO users (username, email, password) VALUES (?, ?, ?)");
-        $stmt->execute([$username, $email, $password]);
+        $hashed = password_hash($password, PASSWORD_DEFAULT);
+        $stmt = $db->prepare("INSERT INTO users (username, email, password, role) VALUES (?, ?, ?, 'student')");
+        $stmt->execute([$username, $email, $hashed]);
+
+        // Log the new user in and send them to their dashboard
+        $_SESSION['user_id']  = $db->lastInsertId();
         $_SESSION['username'] = $username;
-        $_SESSION['success_message'] = 'Registration successful!';
+        $_SESSION['role']     = 'student';
+
         header("Location: dashboard2.php");
         exit();
     } catch (PDOException $e) {
