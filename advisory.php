@@ -227,7 +227,7 @@
                                                         </ul>
                                                          <p><strong>Aeration</strong></p>
                                                         <ul>
-                                                            <li>Use aerator especially at night or low oxygen  </li>
+                                                            <li>Massively make sure you Use aerator especially at night or low oxygen  </li>
                                                             
                                                         </ul>
                                                     </div>
@@ -235,7 +235,145 @@
                                             </section>
                                         </div>
                                         <!-- end -->
+                                          <!-- start -->
+                                        <div class="col-lg-6 col-md-6 col-sm-6">
+                                            <section class="featured-icon-box icon-align-before-content icon-ver_align-top icon-flip-hover" aria-labelledby="fish-health-title">
+                                                <div class="featured-icon">
+                                                    <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
+                                                        <i class="flaticon-pond-1" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="featured-content">
+                                                    <div class="text-center" style="background-color: #0e153a; padding: 8px; margin-bottom: 8px; border-radius: 10px 10px 0 0">
+                                                        <h5 id="fish-health-title" style="color: white; margin: 0;">Weather Advisory</h5>
+                                                    </div>
+                                                    <div class="featured-desc" style="border: 1px solid #00d1ff; border-top: none; padding: 12px; border-radius: 0 0 8px 8px;">
+                                                        <h4 style="color: red; margin-top: 0;"></h4>
+                                                        <p><strong>Hot weather</strong></p>
+                                                        <ul>
+                                                            <li>High temperature reduces oxygen increases aeration and avoid over feeding </li>
+                                                            
+                                                        </ul>
+                                                        <p><strong>Rainy Weather</strong></p>
+                                                        <ul>
+                                                            <li>Heavy rain can reduce PH and Oxygen </li>
+                                                            <li>Monitor water quality and be prepared</li>
+                                                        
+                                                        </ul>
+                                                        <p><strong>Dry Season</strong></p>
+                                                        <ul>
+                                                            
+                                                            <li>Water level drops and oxygen decreases </li>
+                                                        
+                                                        
+                                                            
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                        <
+                                         
                                          <!-- start -->
+                                        <<!-- Feeding Advisory -->
+<div class="card">
+
+    <div class="card-header">
+        <h3> Feeding Advisory</h3>
+    </div>
+
+    <div class="card-body">
+
+        <ul>
+            <li>Recommended feed based on fish age</li>
+            <li>Feeding frequency</li>
+            <li>Daily feed quantity</li>
+            <li>Signs of overfeeding or underfeegetgding</li>
+        </ul>
+
+        <br>
+
+        <table width="100%">
+            <tr>
+
+                <td width="55%" valign="top">
+
+                    <h4 style="color:green;">Feeding Guide (Example)</h4>
+
+                    <table border="1" cellpadding="8" cellspacing="0" width="100%">
+
+                        <tr>
+                            <th>Fish Age</th>
+                            <th>Recommendation</th>
+                        </tr>
+
+                        <tr>
+                            <td>0–1 Month</td>
+                            <td>Starter Feed</td>
+                        </tr>
+
+                        <tr>
+                            <td>1–3 Months</td>
+                            <td>Grower Feed</td>
+                        </tr>
+
+                        <tr>
+                            <td>3+ Months</td>
+                            <td>Finisher Feed</td>
+                        </tr>
+
+                        <tr>
+                            <td>Frequency</td>
+                            <td>3–4 Times Daily</td>
+                        </tr>
+
+                        <tr>
+                            <td>Daily Quantity</td>
+                            <td>5–10% Body Weight</td>
+                        </tr>
+
+                    </table>
+
+                </td>
+
+                <td width="5%"></td>
+
+                <td width="40%" valign="top">
+
+                    <h4 style="color:red;">Signs to Watch</h4>
+
+                    <h5 style="color:red;">Overfeeding</h5>
+
+                    <ul>
+                        <li>Uneaten feed</li>
+                        <li>Dirty water</li>
+                        <li>Poor fish growth</li>
+                    </ul>
+
+                    <h5 style="color:red;">Underfeeding</h5>
+
+                    <ul>
+                        <li>Slow growth</li>
+                        <li>Fish crowding</li>
+                        <li>Aggressive behaviour</li>
+                    </ul>
+
+                </td>
+
+            </tr>
+        </table>
+
+        <br>
+
+        <center>
+            <text>View Feeding Tips
+        </center>
+
+    </div>
+
+</div>
+                                        <!-- end -->
+                                          <!-- start -->
                                         <div class="col-lg-6 col-md-6 col-sm-6">
                                             <section class="featured-icon-box icon-align-before-content icon-ver_align-top icon-flip-hover" aria-labelledby="fish-health-title">
                                                 <div class="featured-icon">
@@ -273,6 +411,45 @@
                                             </section>
                                         </div>
                                         <!-- end -->
+                                          <!-- start -->
+                                        <div class="col-lg-6 col-md-6 col-sm-6">
+                                            <section class="featured-icon-box icon-align-before-content icon-ver_align-top icon-flip-hover" aria-labelledby="fish-health-title">
+                                                <div class="featured-icon">
+                                                    <div class="ttm-icon ttm-icon_element-onlytxt ttm-icon_element-color-skincolor ttm-icon_element-size-lg">
+                                                        <i class="flaticon-pond-1" aria-hidden="true"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="featured-content">
+                                                    <div class="text-center" style="background-color: #0e153a; padding: 8px; margin-bottom: 8px; border-radius: 10px 10px 0 0">
+                                                        <h5 id="fish-health-title" style="color: white; margin: 0;">Weather Advisory</h5>
+                                                    </div>
+                                                    <div class="featured-desc" style="border: 1px solid #00d1ff; border-top: none; padding: 12px; border-radius: 0 0 8px 8px;">
+                                                        <h4 style="color: red; margin-top: 0;"></h4>
+                                                        <p><strong>Hot weather</strong></p>
+                                                        <ul>
+                                                            <li>High temperature reduces oxygen increases aeration and avoid over feeding </li>
+                                                            
+                                                        </ul>
+                                                        <p><strong>Rainy Weather</strong></p>
+                                                        <ul>
+                                                            <li>Heavy rain can reduce PH and Oxygen </li>
+                                                            <li>Monitor water quality and be prepared</li>
+                                                        
+                                                        </ul>
+                                                        <p><strong>Dry Season</strong></p>
+                                                        <ul>
+                                                            
+                                                            <li>Water level drops and oxygen decreases </li>
+                                                        
+                                                        
+                                                            
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </section>
+                                        </div>
+                                        <!-- end -->
+                                         
                                     <div class="ttm-horizontal_sep width-100 margin_top30 margin_bottom35"></div>
                                     <div class="row">
                                         <div class="col-md-6">
