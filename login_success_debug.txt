@@ -1,14 +1,8 @@
 Array
 (
-<<<<<<< Updated upstream
-    [username] => Big Joe
-    [user_id] => 9
-    [role] => admin
-=======
-    [username] => oo2
     [user_id] => 14
+    [username] => Emmy48
     [role] => student
-    [csrf_token] => d87cf6b12350fb0266a1ac28cdd6c2162cb7d9fc1691b774cc1af7db93f1ad9e
->>>>>>> Stashed changes
+    [csrf_token] => f575f4f89340da85c1c7ceff75fbb32bbdd27521d215843300a18ed3846d31c6
     [success_message] => Login successful!
 )

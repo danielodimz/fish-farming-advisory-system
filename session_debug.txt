@@ -1,4 +1,7 @@
 Array
 (
-    [error_message] => Please log in to access this page.
+    [user_id] => 14
+    [username] => Emmy48
+    [role] => student
+    [csrf_token] => f575f4f89340da85c1c7ceff75fbb32bbdd27521d215843300a18ed3846d31c6
 )

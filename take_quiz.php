@@ -28,6 +28,19 @@ if (empty($questions)) {
     exit;
 }
 
+// Check if user already took this quiz — block retake
+$quiz_ids = array_column($questions, 'id');
+$placeholders = implode(',', array_fill(0, count($quiz_ids), '?'));
+$stmt = $db->prepare("SELECT quiz_id, score FROM quiz_results WHERE user_id = ? AND quiz_id IN ($placeholders)");
+$stmt->execute(array_merge([$user_id], $quiz_ids));
+$existing_results = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+if (!empty($existing_results)) {
+    // User already took this quiz — redirect to feedback
+    header("Location: quiz_result.php?module_id=$module_id");
+    exit;
+}
+
 // Process quiz submission
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $csrf_token = $_POST['csrf_token'] ?? '';
@@ -39,21 +52,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $score = 0;
     $total_questions = count($questions);
+    $user_answers = []; // store for feedback
 
     foreach ($questions as $question) {
         $answer = $_POST['answer_' . $question['id']] ?? '';
-        if ($answer && $answer === $question['correct_answer']) {
+        $is_correct = ($answer !== '' && strtoupper($answer) === strtoupper($question['correct_answer']));
+        if ($is_correct) {
             $score++;
         }
+        $user_answers[$question['id']] = $answer;
 
-        // Store quiz result
-        $stmt = $db->prepare("INSERT INTO quiz_results (user_id, quiz_id, score) VALUES (?, ?, ?) ON DUPLICATE KEY UPDATE score = ?");
-        $stmt->execute([$user_id, $question['id'], $answer === $question['correct_answer'] ? 100 : 0, $answer === $question['correct_answer'] ? 100 : 0]);
+        // Store per-question result (score = 100 if correct, 0 if wrong)
+        $stmt = $db->prepare("INSERT INTO quiz_results (user_id, quiz_id, score) VALUES (?, ?, ?) ON DUPLICATE KEY UPDATE score = VALUES(score)");
+        $stmt->execute([$user_id, $question['id'], $is_correct ? 100 : 0]);
     }
 
-    $percentage = ($score / $total_questions) * 100;
+    $percentage = round(($score / $total_questions) * 100);
 
-    // Update user progress
+    // Mark module as completed
     $stmt = $db->prepare("UPDATE user_progress SET completed = 1 WHERE user_id = ? AND module_id = ?");
     $stmt->execute([$user_id, $module_id]);
 
@@ -73,8 +89,17 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $stmt->execute([$user_id]);
     }
 
-    $_SESSION['success_message'] = "Quiz submitted! Score: $score/$total_questions ($percentage%)";
-    header("Location: view_module.php?id=$module_id");
+    // Store answers in session for result page
+    $_SESSION['quiz_feedback'] = [
+        'module_id'       => $module_id,
+        'score'           => $score,
+        'total'           => $total_questions,
+        'percentage'      => $percentage,
+        'user_answers'    => $user_answers,
+        'questions'       => $questions,
+    ];
+
+    header("Location: quiz_result.php?module_id=$module_id");
     exit;
 }
 

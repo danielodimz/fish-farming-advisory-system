@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Handle image upload
     if (!empty($_FILES['image']['name'])) {
-        $upload_dir = '../uploads/';
+        $upload_dir = __DIR__ . '/uploads/';
         if (!is_dir($upload_dir)) {
             mkdir($upload_dir, 0755, true);
         }
@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $allowed_types = ['image/jpeg', 'image/png', 'image/gif'];
         if (in_array($_FILES['image']['type'], $allowed_types) && $_FILES['image']['size'] <= 5 * 1024 * 1024) {
             if (move_uploaded_file($_FILES['image']['tmp_name'], $image_path)) {
-                $image_url = 'uploads/' . $image_name;
+                $image_url = $image_name; // store filename only
             } else {
                 $_SESSION['error_message'] = 'Failed to upload image.';
                 header("Location: content_management.php" . ($module_id ? "?edit=$module_id" : ""));
@@ -82,6 +82,12 @@ if (isset($_GET['edit'])) {
     $edit_module = $stmt->fetch(PDO::FETCH_ASSOC);
 }
 
+// Build the base URL for uploads dynamically
+$base_url = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http')
+    . '://' . $_SERVER['HTTP_HOST']
+    . rtrim(dirname(dirname($_SERVER['SCRIPT_NAME'])), '/\\')
+    . '/admin/uploads/';
+
 // Generate CSRF token
 $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
 
@@ -120,12 +126,12 @@ $modules = $stmt->fetchAll(PDO::FETCH_ASSOC);
                             <label for="image" class="form-label">Image (Optional, max 5MB)</label>
                             <input type="file" class="form-control" id="image" name="image" accept="image/*">
                             <?php if ($edit_module && !empty($edit_module['image_url'])): ?>
-                                <small>Current: <a href="<?php echo htmlspecialchars($edit_module['image_url']); ?>" target="_blank">View Image</a></small>
+                                <small>Current: <a href="<?php echo htmlspecialchars($base_url . basename($edit_module['image_url'])); ?>" target="_blank">View Image</a></small>
                             <?php endif; ?>
                         </div>
                         <div class="mb-3">
                             <label for="supporting_materials" class="form-label">Supporting Materials (Optional)</label>
-                            <textarea class="form-control" id="supporting_materials" name="supporting_materials" rows="3"><?php echo $edit_module ? htmlspecialchars($edit_module['supporting_materials']) : ''; ?></textarea>
+                            <textarea class="form-control" id="supporting_materials" name="materials" rows="3"><?php echo $edit_module ? htmlspecialchars($edit_module['materials']) : ''; ?></textarea>
                         </div>
                         <button type="submit" class="btn btn-primary"><?php echo $edit_module ? 'Update Module' : 'Add Module'; ?></button>
                     </form>
@@ -152,7 +158,7 @@ $modules = $stmt->fetchAll(PDO::FETCH_ASSOC);
                                     <td><?php echo htmlspecialchars($module['title']); ?></td>
                                     <td>
                                         <?php if (!empty($module['image_url'])): ?>
-                                            <a href="<?php echo htmlspecialchars($module['image_url']); ?>" target="_blank">View</a>
+                                            <a href="<?php echo htmlspecialchars($base_url . basename($module['image_url'])); ?>" target="_blank">View</a>
                                         <?php else: ?>
                                             None
                                         <?php endif; ?>
