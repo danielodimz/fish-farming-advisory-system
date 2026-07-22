@@ -47,9 +47,9 @@
                                 <?php
                                 require 'includes/db.php';
                                 $stmt = $db->query("SELECT id, title FROM modules");
-                                $modules = $stmt->fetchAll(PDO::FETCH_ASSOC);
-                                foreach ($modules as $module) {
-                                    echo '<li class="nav-item"><a class="nav-link" href="view_module.php?id=' . $module['id'] . '">' . htmlspecialchars($module['title']) . '</a></li>';
+                                $nav_modules = $stmt->fetchAll(PDO::FETCH_ASSOC);
+                                foreach ($nav_modules as $nav_mod) {
+                                    echo '<li class="nav-item"><a class="nav-link" href="view_module.php?id=' . $nav_mod['id'] . '">' . htmlspecialchars($nav_mod['title']) . '</a></li>';
                                 }
                                 ?>
                             </ul>

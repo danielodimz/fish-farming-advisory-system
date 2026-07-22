@@ -13,7 +13,7 @@ if (isset($_FILES['image']) && $_FILES['image']['error'] == 0) {
     move_uploaded_file($_FILES["image"]["tmp_name"], $image_url);
 }
 
-$stmt = $db->prepare("INSERT INTO modules (title, content, image_url, supporting_materials) VALUES (?, ?, ?, ?)");
+$stmt = $db->prepare("INSERT INTO modules (title, content, image_url, materials) VALUES (?, ?, ?, ?)");
 $stmt->execute([$title, $content, $image_url, $materials]);
 header("Location: content_management.php");
 ?>

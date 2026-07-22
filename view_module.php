@@ -23,6 +23,9 @@ if (!$module) {
     exit;
 }
 
+// Store module data in a separate variable safe from overwrites
+$current_module = $module;
+
 // Start progress if not exists
 $stmt = $db->prepare("INSERT IGNORE INTO user_progress (user_id, module_id) VALUES (?, ?)");
 $stmt->execute([$user_id, $module_id]);
@@ -55,27 +58,26 @@ include 'includes/header2.php';
     <div class="row mb-8">
         <div class="col-xl-3 col-lg-4 col-md-12 col-12">
             <div class="mb-4 mb-lg-0">
-                <h4 class="mb-1"><?php echo htmlspecialchars($module['title']); ?></h4>
+                <h4 class="mb-1"><?php echo htmlspecialchars($current_module['title']); ?></h4>
                 <p class="mb-0 fs-5 text-muted">Module Content</p>
             </div>
         </div>
         <div class="col-xl-9 col-lg-8 col-md-12 col-12">
             <div class="card">
                 <div class="card-body">
-                    <?php if (!empty($module['image_url'])): ?>
+                    <?php if (!empty($current_module['image_url'])): ?>
                         <?php
                             $img_base = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https' : 'http')
                                 . '://' . $_SERVER['HTTP_HOST']
                                 . rtrim(dirname($_SERVER['SCRIPT_NAME']), '/\\')
                                 . '/admin/uploads/';
                         ?>
-                        <img src="<?php echo htmlspecialchars($img_base . basename($module['image_url'])); ?>" class="img-fluid mb-4" alt="<?php echo htmlspecialchars($module['title']); ?>">
+                        <img src="<?php echo htmlspecialchars($img_base . basename($current_module['image_url'])); ?>" class="mb-4" alt="<?php echo htmlspecialchars($current_module['title']); ?>" style="max-width:320px; max-height:200px; width:100%; object-fit:cover; border-radius:8px;">
                     <?php endif; ?>
                     <div class="mb-4">
-                        <?php if (!empty(trim($module['content'] ?? ''))): ?>
-                            <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                                <?php echo nl2br(htmlspecialchars($module['content'] ?? '')); ?>
-                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                        <?php if (!empty(trim($current_module['content'] ?? ''))): ?>
+                            <div class="module-content" style="line-height:1.8; font-size:1rem; color:#333;">
+                                <?php echo nl2br(htmlspecialchars($current_module['content'])); ?>
                             </div>
                         <?php else: ?>
                             <div class="alert alert-secondary">
@@ -83,8 +85,8 @@ include 'includes/header2.php';
                             </div>
                         <?php endif; ?>
                     </div>
-                    <?php if (!empty($module['materials'])): ?>
-                        <p><strong>Resources:</strong> <?php echo htmlspecialchars($module['materials']); ?></p>
+                    <?php if (!empty($current_module['materials'])): ?>
+                        <p><strong>Resources:</strong> <?php echo htmlspecialchars($current_module['materials']); ?></p>
                     <?php endif; ?>
                     <?php if ($quiz): ?>
                         <?php if ($quiz_taken): ?>

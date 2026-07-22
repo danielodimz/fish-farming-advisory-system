@@ -1,8 +1,7 @@
 Array
 (
-    [user_id] => 14
     [username] => Emmy48
+    [user_id] => 14
     [role] => student
-    [csrf_token] => f575f4f89340da85c1c7ceff75fbb32bbdd27521d215843300a18ed3846d31c6
     [success_message] => Login successful!
 )
